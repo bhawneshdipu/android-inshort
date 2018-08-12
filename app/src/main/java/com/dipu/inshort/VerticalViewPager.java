@@ -8,7 +8,7 @@ import android.view.View;
 
 
 /**
- * Created by jrizvan on 12/13/16.
+ * Created by dipu.
  */
 
 public class VerticalViewPager extends ViewPager {

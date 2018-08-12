@@ -1,7 +1,7 @@
 package com.dipu.inshort;
 
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.*;
+
 import android.os.Bundle;
 
 
