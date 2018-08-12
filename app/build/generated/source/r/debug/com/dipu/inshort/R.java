@@ -1105,7 +1105,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f020094;
+    public static final int paddingBottomNoButtons=0x7f020094;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1113,21 +1113,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f020095;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int panelBackground=0x7f020096;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int panelMenuListTheme=0x7f020097;
+    public static final int paddingEnd=0x7f020095;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1135,33 +1121,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f020098;
+    public static final int paddingStart=0x7f020096;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int paddingTopNoTitle=0x7f020097;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f020099;
+    public static final int panelBackground=0x7f020098;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f02009a;
+    public static final int panelMenuListTheme=0x7f020099;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int panelMenuListWidth=0x7f02009a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f02009b;
+    public static final int popupMenuStyle=0x7f02009b;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int popupTheme=0x7f02009c;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int popupWindowStyle=0x7f02009d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f02009c;
+    public static final int preserveIconSpacing=0x7f02009e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1169,96 +1185,96 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f02009d;
+    public static final int progressBarPadding=0x7f02009f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f02009e;
+    public static final int progressBarStyle=0x7f0200a0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f02009f;
+    public static final int queryBackground=0x7f0200a1;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f0200a0;
+    public static final int queryHint=0x7f0200a2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f0200a1;
+    public static final int radioButtonStyle=0x7f0200a3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f0200a2;
+    public static final int ratingBarStyle=0x7f0200a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f0200a3;
+    public static final int ratingBarStyleIndicator=0x7f0200a5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f0200a4;
+    public static final int ratingBarStyleSmall=0x7f0200a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f0200a5;
+    public static final int searchHintIcon=0x7f0200a7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f0200a6;
+    public static final int searchIcon=0x7f0200a8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f0200a7;
+    public static final int searchViewStyle=0x7f0200a9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f0200a8;
+    public static final int seekBarStyle=0x7f0200aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f0200a9;
+    public static final int selectableItemBackground=0x7f0200ab;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f0200aa;
+    public static final int selectableItemBackgroundBorderless=0x7f0200ac;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1273,7 +1289,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f0200ab;
+    public static final int showAsAction=0x7f0200ad;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1287,101 +1303,106 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f0200ac;
+    public static final int showDividers=0x7f0200ae;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f0200ad;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int singleChoiceItemLayout=0x7f0200ae;
+    public static final int showText=0x7f0200af;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0200af;
+    public static final int showTitle=0x7f0200b0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0200b0;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int spinnerStyle=0x7f0200b1;
+    public static final int singleChoiceItemLayout=0x7f0200b1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0200b2;
+    public static final int spinBars=0x7f0200b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f0200b3;
+    public static final int spinnerDropDownItemStyle=0x7f0200b3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int spinnerStyle=0x7f0200b4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0200b4;
+    public static final int splitTrack=0x7f0200b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f0200b5;
+    public static final int srcCompat=0x7f0200b6;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int state_above_anchor=0x7f0200b7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0200b6;
+    public static final int subMenuArrow=0x7f0200b8;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int submitBackground=0x7f0200b9;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0200b7;
+    public static final int subtitle=0x7f0200ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0200b8;
+    public static final int subtitleTextAppearance=0x7f0200bb;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0200b9;
+    public static final int subtitleTextColor=0x7f0200bc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0200ba;
+    public static final int subtitleTextStyle=0x7f0200bd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0200bb;
+    public static final int suggestionRowLayout=0x7f0200be;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1389,7 +1410,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0200bc;
+    public static final int switchMinWidth=0x7f0200bf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1397,21 +1418,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0200bd;
+    public static final int switchPadding=0x7f0200c0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0200be;
+    public static final int switchStyle=0x7f0200c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0200bf;
+    public static final int switchTextAppearance=0x7f0200c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1420,66 +1441,56 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0200c0;
+    public static final int textAllCaps=0x7f0200c3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0200c1;
+    public static final int textAppearanceLargePopupMenu=0x7f0200c4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0200c2;
+    public static final int textAppearanceListItem=0x7f0200c5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0200c3;
+    public static final int textAppearanceListItemSmall=0x7f0200c6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f0200c4;
+    public static final int textAppearancePopupMenuHeader=0x7f0200c7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0200c5;
+    public static final int textAppearanceSearchResultSubtitle=0x7f0200c8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f0200c6;
+    public static final int textAppearanceSearchResultTitle=0x7f0200c9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f0200c7;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f0200c8;
+    public static final int textAppearanceSmallPopupMenu=0x7f0200ca;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1489,14 +1500,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f0200c9;
+    public static final int textColorAlertDialogListItem=0x7f0200cb;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f0200cc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f0200ca;
+    public static final int theme=0x7f0200cd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1504,7 +1525,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f0200cb;
+    public static final int thickness=0x7f0200ce;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1512,13 +1533,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f0200cc;
+    public static final int thumbTextPadding=0x7f0200cf;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f0200cd;
+    public static final int thumbTint=0x7f0200d0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1534,20 +1555,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f0200ce;
+    public static final int thumbTintMode=0x7f0200d1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f0200cf;
+    public static final int tickMark=0x7f0200d2;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f0200d0;
+    public static final int tickMarkTint=0x7f0200d3;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1563,12 +1584,12 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f0200d1;
+    public static final int tickMarkTintMode=0x7f0200d4;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f0200d2;
+    public static final int title=0x7f0200d5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1576,7 +1597,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f0200d3;
+    public static final int titleMargin=0x7f0200d6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1584,7 +1605,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f0200d4;
+    public static final int titleMarginBottom=0x7f0200d7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1592,7 +1613,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f0200d5;
+    public static final int titleMarginEnd=0x7f0200d8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1600,7 +1621,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f0200d6;
+    public static final int titleMarginStart=0x7f0200d9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1608,7 +1629,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f0200d7;
+    public static final int titleMarginTop=0x7f0200da;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1616,54 +1637,54 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f0200d8;
+    public static final int titleMargins=0x7f0200db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f0200d9;
+    public static final int titleTextAppearance=0x7f0200dc;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f0200da;
+    public static final int titleTextColor=0x7f0200dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f0200db;
+    public static final int titleTextStyle=0x7f0200de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f0200dc;
+    public static final int toolbarNavigationButtonStyle=0x7f0200df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f0200dd;
+    public static final int toolbarStyle=0x7f0200e0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f0200de;
+    public static final int track=0x7f0200e1;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f0200df;
+    public static final int trackTint=0x7f0200e2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1679,29 +1700,29 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f0200e0;
+    public static final int trackTintMode=0x7f0200e3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f0200e1;
+    public static final int voiceIcon=0x7f0200e4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f0200e2;
+    public static final int windowActionBar=0x7f0200e5;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f0200e3;
+    public static final int windowActionBarOverlay=0x7f0200e6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f0200e4;
+    public static final int windowActionModeOverlay=0x7f0200e7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1713,7 +1734,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f0200e5;
+    public static final int windowFixedHeightMajor=0x7f0200e8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1725,7 +1746,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f0200e6;
+    public static final int windowFixedHeightMinor=0x7f0200e9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1737,7 +1758,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f0200e7;
+    public static final int windowFixedWidthMajor=0x7f0200ea;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1749,7 +1770,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f0200e8;
+    public static final int windowFixedWidthMinor=0x7f0200eb;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1761,7 +1782,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f0200e9;
+    public static final int windowMinWidthMajor=0x7f0200ec;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1773,12 +1794,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f0200ea;
+    public static final int windowMinWidthMinor=0x7f0200ed;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f0200eb;
+    public static final int windowNoTitle=0x7f0200ee;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f030000;
@@ -1791,91 +1812,92 @@ public final class R {
     public static final int abc_background_cache_hint_selector_material_dark=0x7f040000;
     public static final int abc_background_cache_hint_selector_material_light=0x7f040001;
     public static final int abc_btn_colored_borderless_text_material=0x7f040002;
-    public static final int abc_color_highlight_material=0x7f040003;
-    public static final int abc_hint_foreground_material_dark=0x7f040004;
-    public static final int abc_hint_foreground_material_light=0x7f040005;
-    public static final int abc_input_method_navigation_guard=0x7f040006;
-    public static final int abc_primary_text_disable_only_material_dark=0x7f040007;
-    public static final int abc_primary_text_disable_only_material_light=0x7f040008;
-    public static final int abc_primary_text_material_dark=0x7f040009;
-    public static final int abc_primary_text_material_light=0x7f04000a;
-    public static final int abc_search_url_text=0x7f04000b;
-    public static final int abc_search_url_text_normal=0x7f04000c;
-    public static final int abc_search_url_text_pressed=0x7f04000d;
-    public static final int abc_search_url_text_selected=0x7f04000e;
-    public static final int abc_secondary_text_material_dark=0x7f04000f;
-    public static final int abc_secondary_text_material_light=0x7f040010;
-    public static final int abc_tint_btn_checkable=0x7f040011;
-    public static final int abc_tint_default=0x7f040012;
-    public static final int abc_tint_edittext=0x7f040013;
-    public static final int abc_tint_seek_thumb=0x7f040014;
-    public static final int abc_tint_spinner=0x7f040015;
-    public static final int abc_tint_switch_thumb=0x7f040016;
-    public static final int abc_tint_switch_track=0x7f040017;
-    public static final int accent_material_dark=0x7f040018;
-    public static final int accent_material_light=0x7f040019;
-    public static final int background_floating_material_dark=0x7f04001a;
-    public static final int background_floating_material_light=0x7f04001b;
-    public static final int background_material_dark=0x7f04001c;
-    public static final int background_material_light=0x7f04001d;
-    public static final int bright_foreground_disabled_material_dark=0x7f04001e;
-    public static final int bright_foreground_disabled_material_light=0x7f04001f;
-    public static final int bright_foreground_inverse_material_dark=0x7f040020;
-    public static final int bright_foreground_inverse_material_light=0x7f040021;
-    public static final int bright_foreground_material_dark=0x7f040022;
-    public static final int bright_foreground_material_light=0x7f040023;
-    public static final int button_material_dark=0x7f040024;
-    public static final int button_material_light=0x7f040025;
-    public static final int cardview_dark_background=0x7f040026;
-    public static final int cardview_light_background=0x7f040027;
-    public static final int cardview_shadow_end_color=0x7f040028;
-    public static final int cardview_shadow_start_color=0x7f040029;
-    public static final int colorAccent=0x7f04002a;
-    public static final int colorPrimary=0x7f04002b;
-    public static final int colorPrimaryDark=0x7f04002c;
-    public static final int dim_foreground_disabled_material_dark=0x7f04002d;
-    public static final int dim_foreground_disabled_material_light=0x7f04002e;
-    public static final int dim_foreground_material_dark=0x7f04002f;
-    public static final int dim_foreground_material_light=0x7f040030;
-    public static final int foreground_material_dark=0x7f040031;
-    public static final int foreground_material_light=0x7f040032;
-    public static final int highlighted_text_material_dark=0x7f040033;
-    public static final int highlighted_text_material_light=0x7f040034;
-    public static final int material_blue_grey_800=0x7f040035;
-    public static final int material_blue_grey_900=0x7f040036;
-    public static final int material_blue_grey_950=0x7f040037;
-    public static final int material_deep_teal_200=0x7f040038;
-    public static final int material_deep_teal_500=0x7f040039;
-    public static final int material_grey_100=0x7f04003a;
-    public static final int material_grey_300=0x7f04003b;
-    public static final int material_grey_50=0x7f04003c;
-    public static final int material_grey_600=0x7f04003d;
-    public static final int material_grey_800=0x7f04003e;
-    public static final int material_grey_850=0x7f04003f;
-    public static final int material_grey_900=0x7f040040;
-    public static final int notification_action_color_filter=0x7f040041;
-    public static final int notification_icon_bg_color=0x7f040042;
-    public static final int notification_material_background_media_default_color=0x7f040043;
-    public static final int primary_dark_material_dark=0x7f040044;
-    public static final int primary_dark_material_light=0x7f040045;
-    public static final int primary_material_dark=0x7f040046;
-    public static final int primary_material_light=0x7f040047;
-    public static final int primary_text_default_material_dark=0x7f040048;
-    public static final int primary_text_default_material_light=0x7f040049;
-    public static final int primary_text_disabled_material_dark=0x7f04004a;
-    public static final int primary_text_disabled_material_light=0x7f04004b;
-    public static final int ripple_material_dark=0x7f04004c;
-    public static final int ripple_material_light=0x7f04004d;
-    public static final int secondary_text_default_material_dark=0x7f04004e;
-    public static final int secondary_text_default_material_light=0x7f04004f;
-    public static final int secondary_text_disabled_material_dark=0x7f040050;
-    public static final int secondary_text_disabled_material_light=0x7f040051;
-    public static final int switch_thumb_disabled_material_dark=0x7f040052;
-    public static final int switch_thumb_disabled_material_light=0x7f040053;
-    public static final int switch_thumb_material_dark=0x7f040054;
-    public static final int switch_thumb_material_light=0x7f040055;
-    public static final int switch_thumb_normal_material_dark=0x7f040056;
-    public static final int switch_thumb_normal_material_light=0x7f040057;
+    public static final int abc_btn_colored_text_material=0x7f040003;
+    public static final int abc_color_highlight_material=0x7f040004;
+    public static final int abc_hint_foreground_material_dark=0x7f040005;
+    public static final int abc_hint_foreground_material_light=0x7f040006;
+    public static final int abc_input_method_navigation_guard=0x7f040007;
+    public static final int abc_primary_text_disable_only_material_dark=0x7f040008;
+    public static final int abc_primary_text_disable_only_material_light=0x7f040009;
+    public static final int abc_primary_text_material_dark=0x7f04000a;
+    public static final int abc_primary_text_material_light=0x7f04000b;
+    public static final int abc_search_url_text=0x7f04000c;
+    public static final int abc_search_url_text_normal=0x7f04000d;
+    public static final int abc_search_url_text_pressed=0x7f04000e;
+    public static final int abc_search_url_text_selected=0x7f04000f;
+    public static final int abc_secondary_text_material_dark=0x7f040010;
+    public static final int abc_secondary_text_material_light=0x7f040011;
+    public static final int abc_tint_btn_checkable=0x7f040012;
+    public static final int abc_tint_default=0x7f040013;
+    public static final int abc_tint_edittext=0x7f040014;
+    public static final int abc_tint_seek_thumb=0x7f040015;
+    public static final int abc_tint_spinner=0x7f040016;
+    public static final int abc_tint_switch_thumb=0x7f040017;
+    public static final int abc_tint_switch_track=0x7f040018;
+    public static final int accent_material_dark=0x7f040019;
+    public static final int accent_material_light=0x7f04001a;
+    public static final int background_floating_material_dark=0x7f04001b;
+    public static final int background_floating_material_light=0x7f04001c;
+    public static final int background_material_dark=0x7f04001d;
+    public static final int background_material_light=0x7f04001e;
+    public static final int bright_foreground_disabled_material_dark=0x7f04001f;
+    public static final int bright_foreground_disabled_material_light=0x7f040020;
+    public static final int bright_foreground_inverse_material_dark=0x7f040021;
+    public static final int bright_foreground_inverse_material_light=0x7f040022;
+    public static final int bright_foreground_material_dark=0x7f040023;
+    public static final int bright_foreground_material_light=0x7f040024;
+    public static final int button_material_dark=0x7f040025;
+    public static final int button_material_light=0x7f040026;
+    public static final int cardview_dark_background=0x7f040027;
+    public static final int cardview_light_background=0x7f040028;
+    public static final int cardview_shadow_end_color=0x7f040029;
+    public static final int cardview_shadow_start_color=0x7f04002a;
+    public static final int colorAccent=0x7f04002b;
+    public static final int colorPrimary=0x7f04002c;
+    public static final int colorPrimaryDark=0x7f04002d;
+    public static final int dim_foreground_disabled_material_dark=0x7f04002e;
+    public static final int dim_foreground_disabled_material_light=0x7f04002f;
+    public static final int dim_foreground_material_dark=0x7f040030;
+    public static final int dim_foreground_material_light=0x7f040031;
+    public static final int foreground_material_dark=0x7f040032;
+    public static final int foreground_material_light=0x7f040033;
+    public static final int highlighted_text_material_dark=0x7f040034;
+    public static final int highlighted_text_material_light=0x7f040035;
+    public static final int material_blue_grey_800=0x7f040036;
+    public static final int material_blue_grey_900=0x7f040037;
+    public static final int material_blue_grey_950=0x7f040038;
+    public static final int material_deep_teal_200=0x7f040039;
+    public static final int material_deep_teal_500=0x7f04003a;
+    public static final int material_grey_100=0x7f04003b;
+    public static final int material_grey_300=0x7f04003c;
+    public static final int material_grey_50=0x7f04003d;
+    public static final int material_grey_600=0x7f04003e;
+    public static final int material_grey_800=0x7f04003f;
+    public static final int material_grey_850=0x7f040040;
+    public static final int material_grey_900=0x7f040041;
+    public static final int notification_action_color_filter=0x7f040042;
+    public static final int notification_icon_bg_color=0x7f040043;
+    public static final int notification_material_background_media_default_color=0x7f040044;
+    public static final int primary_dark_material_dark=0x7f040045;
+    public static final int primary_dark_material_light=0x7f040046;
+    public static final int primary_material_dark=0x7f040047;
+    public static final int primary_material_light=0x7f040048;
+    public static final int primary_text_default_material_dark=0x7f040049;
+    public static final int primary_text_default_material_light=0x7f04004a;
+    public static final int primary_text_disabled_material_dark=0x7f04004b;
+    public static final int primary_text_disabled_material_light=0x7f04004c;
+    public static final int ripple_material_dark=0x7f04004d;
+    public static final int ripple_material_light=0x7f04004e;
+    public static final int secondary_text_default_material_dark=0x7f04004f;
+    public static final int secondary_text_default_material_light=0x7f040050;
+    public static final int secondary_text_disabled_material_dark=0x7f040051;
+    public static final int secondary_text_disabled_material_light=0x7f040052;
+    public static final int switch_thumb_disabled_material_dark=0x7f040053;
+    public static final int switch_thumb_disabled_material_light=0x7f040054;
+    public static final int switch_thumb_material_dark=0x7f040055;
+    public static final int switch_thumb_material_light=0x7f040056;
+    public static final int switch_thumb_normal_material_dark=0x7f040057;
+    public static final int switch_thumb_normal_material_light=0x7f040058;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f050000;
@@ -1909,76 +1931,78 @@ public final class R {
     public static final int abc_dialog_fixed_height_minor=0x7f05001c;
     public static final int abc_dialog_fixed_width_major=0x7f05001d;
     public static final int abc_dialog_fixed_width_minor=0x7f05001e;
-    public static final int abc_dialog_list_padding_vertical_material=0x7f05001f;
-    public static final int abc_dialog_min_width_major=0x7f050020;
-    public static final int abc_dialog_min_width_minor=0x7f050021;
-    public static final int abc_dialog_padding_material=0x7f050022;
-    public static final int abc_dialog_padding_top_material=0x7f050023;
-    public static final int abc_disabled_alpha_material_dark=0x7f050024;
-    public static final int abc_disabled_alpha_material_light=0x7f050025;
-    public static final int abc_dropdownitem_icon_width=0x7f050026;
-    public static final int abc_dropdownitem_text_padding_left=0x7f050027;
-    public static final int abc_dropdownitem_text_padding_right=0x7f050028;
-    public static final int abc_edit_text_inset_bottom_material=0x7f050029;
-    public static final int abc_edit_text_inset_horizontal_material=0x7f05002a;
-    public static final int abc_edit_text_inset_top_material=0x7f05002b;
-    public static final int abc_floating_window_z=0x7f05002c;
-    public static final int abc_list_item_padding_horizontal_material=0x7f05002d;
-    public static final int abc_panel_menu_list_width=0x7f05002e;
-    public static final int abc_progress_bar_height_material=0x7f05002f;
-    public static final int abc_search_view_preferred_height=0x7f050030;
-    public static final int abc_search_view_preferred_width=0x7f050031;
-    public static final int abc_seekbar_track_background_height_material=0x7f050032;
-    public static final int abc_seekbar_track_progress_height_material=0x7f050033;
-    public static final int abc_select_dialog_padding_start_material=0x7f050034;
-    public static final int abc_switch_padding=0x7f050035;
-    public static final int abc_text_size_body_1_material=0x7f050036;
-    public static final int abc_text_size_body_2_material=0x7f050037;
-    public static final int abc_text_size_button_material=0x7f050038;
-    public static final int abc_text_size_caption_material=0x7f050039;
-    public static final int abc_text_size_display_1_material=0x7f05003a;
-    public static final int abc_text_size_display_2_material=0x7f05003b;
-    public static final int abc_text_size_display_3_material=0x7f05003c;
-    public static final int abc_text_size_display_4_material=0x7f05003d;
-    public static final int abc_text_size_headline_material=0x7f05003e;
-    public static final int abc_text_size_large_material=0x7f05003f;
-    public static final int abc_text_size_medium_material=0x7f050040;
-    public static final int abc_text_size_menu_header_material=0x7f050041;
-    public static final int abc_text_size_menu_material=0x7f050042;
-    public static final int abc_text_size_small_material=0x7f050043;
-    public static final int abc_text_size_subhead_material=0x7f050044;
-    public static final int abc_text_size_subtitle_material_toolbar=0x7f050045;
-    public static final int abc_text_size_title_material=0x7f050046;
-    public static final int abc_text_size_title_material_toolbar=0x7f050047;
-    public static final int activity_horizontal_margin=0x7f050048;
-    public static final int activity_vertical_margin=0x7f050049;
-    public static final int cardview_compat_inset_shadow=0x7f05004a;
-    public static final int cardview_default_elevation=0x7f05004b;
-    public static final int cardview_default_radius=0x7f05004c;
-    public static final int disabled_alpha_material_dark=0x7f05004d;
-    public static final int disabled_alpha_material_light=0x7f05004e;
-    public static final int highlight_alpha_material_colored=0x7f05004f;
-    public static final int highlight_alpha_material_dark=0x7f050050;
-    public static final int highlight_alpha_material_light=0x7f050051;
-    public static final int hint_alpha_material_dark=0x7f050052;
-    public static final int hint_alpha_material_light=0x7f050053;
-    public static final int hint_pressed_alpha_material_dark=0x7f050054;
-    public static final int hint_pressed_alpha_material_light=0x7f050055;
-    public static final int notification_action_icon_size=0x7f050056;
-    public static final int notification_action_text_size=0x7f050057;
-    public static final int notification_big_circle_margin=0x7f050058;
-    public static final int notification_content_margin_start=0x7f050059;
-    public static final int notification_large_icon_height=0x7f05005a;
-    public static final int notification_large_icon_width=0x7f05005b;
-    public static final int notification_main_column_padding_top=0x7f05005c;
-    public static final int notification_media_narrow_margin=0x7f05005d;
-    public static final int notification_right_icon_size=0x7f05005e;
-    public static final int notification_right_side_padding_top=0x7f05005f;
-    public static final int notification_small_icon_background_padding=0x7f050060;
-    public static final int notification_small_icon_size_as_large=0x7f050061;
-    public static final int notification_subtext_size=0x7f050062;
-    public static final int notification_top_pad=0x7f050063;
-    public static final int notification_top_pad_large_text=0x7f050064;
+    public static final int abc_dialog_list_padding_bottom_no_buttons=0x7f05001f;
+    public static final int abc_dialog_list_padding_top_no_title=0x7f050020;
+    public static final int abc_dialog_min_width_major=0x7f050021;
+    public static final int abc_dialog_min_width_minor=0x7f050022;
+    public static final int abc_dialog_padding_material=0x7f050023;
+    public static final int abc_dialog_padding_top_material=0x7f050024;
+    public static final int abc_dialog_title_divider_material=0x7f050025;
+    public static final int abc_disabled_alpha_material_dark=0x7f050026;
+    public static final int abc_disabled_alpha_material_light=0x7f050027;
+    public static final int abc_dropdownitem_icon_width=0x7f050028;
+    public static final int abc_dropdownitem_text_padding_left=0x7f050029;
+    public static final int abc_dropdownitem_text_padding_right=0x7f05002a;
+    public static final int abc_edit_text_inset_bottom_material=0x7f05002b;
+    public static final int abc_edit_text_inset_horizontal_material=0x7f05002c;
+    public static final int abc_edit_text_inset_top_material=0x7f05002d;
+    public static final int abc_floating_window_z=0x7f05002e;
+    public static final int abc_list_item_padding_horizontal_material=0x7f05002f;
+    public static final int abc_panel_menu_list_width=0x7f050030;
+    public static final int abc_progress_bar_height_material=0x7f050031;
+    public static final int abc_search_view_preferred_height=0x7f050032;
+    public static final int abc_search_view_preferred_width=0x7f050033;
+    public static final int abc_seekbar_track_background_height_material=0x7f050034;
+    public static final int abc_seekbar_track_progress_height_material=0x7f050035;
+    public static final int abc_select_dialog_padding_start_material=0x7f050036;
+    public static final int abc_switch_padding=0x7f050037;
+    public static final int abc_text_size_body_1_material=0x7f050038;
+    public static final int abc_text_size_body_2_material=0x7f050039;
+    public static final int abc_text_size_button_material=0x7f05003a;
+    public static final int abc_text_size_caption_material=0x7f05003b;
+    public static final int abc_text_size_display_1_material=0x7f05003c;
+    public static final int abc_text_size_display_2_material=0x7f05003d;
+    public static final int abc_text_size_display_3_material=0x7f05003e;
+    public static final int abc_text_size_display_4_material=0x7f05003f;
+    public static final int abc_text_size_headline_material=0x7f050040;
+    public static final int abc_text_size_large_material=0x7f050041;
+    public static final int abc_text_size_medium_material=0x7f050042;
+    public static final int abc_text_size_menu_header_material=0x7f050043;
+    public static final int abc_text_size_menu_material=0x7f050044;
+    public static final int abc_text_size_small_material=0x7f050045;
+    public static final int abc_text_size_subhead_material=0x7f050046;
+    public static final int abc_text_size_subtitle_material_toolbar=0x7f050047;
+    public static final int abc_text_size_title_material=0x7f050048;
+    public static final int abc_text_size_title_material_toolbar=0x7f050049;
+    public static final int activity_horizontal_margin=0x7f05004a;
+    public static final int activity_vertical_margin=0x7f05004b;
+    public static final int cardview_compat_inset_shadow=0x7f05004c;
+    public static final int cardview_default_elevation=0x7f05004d;
+    public static final int cardview_default_radius=0x7f05004e;
+    public static final int disabled_alpha_material_dark=0x7f05004f;
+    public static final int disabled_alpha_material_light=0x7f050050;
+    public static final int highlight_alpha_material_colored=0x7f050051;
+    public static final int highlight_alpha_material_dark=0x7f050052;
+    public static final int highlight_alpha_material_light=0x7f050053;
+    public static final int hint_alpha_material_dark=0x7f050054;
+    public static final int hint_alpha_material_light=0x7f050055;
+    public static final int hint_pressed_alpha_material_dark=0x7f050056;
+    public static final int hint_pressed_alpha_material_light=0x7f050057;
+    public static final int notification_action_icon_size=0x7f050058;
+    public static final int notification_action_text_size=0x7f050059;
+    public static final int notification_big_circle_margin=0x7f05005a;
+    public static final int notification_content_margin_start=0x7f05005b;
+    public static final int notification_large_icon_height=0x7f05005c;
+    public static final int notification_large_icon_width=0x7f05005d;
+    public static final int notification_main_column_padding_top=0x7f05005e;
+    public static final int notification_media_narrow_margin=0x7f05005f;
+    public static final int notification_right_icon_size=0x7f050060;
+    public static final int notification_right_side_padding_top=0x7f050061;
+    public static final int notification_small_icon_background_padding=0x7f050062;
+    public static final int notification_small_icon_size_as_large=0x7f050063;
+    public static final int notification_subtext_size=0x7f050064;
+    public static final int notification_top_pad=0x7f050065;
+    public static final int notification_top_pad_large_text=0x7f050066;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f060000;
@@ -2181,18 +2205,20 @@ public final class R {
     public static final int text=0x7f070062;
     public static final int text2=0x7f070063;
     public static final int textSpacerNoButtons=0x7f070064;
-    public static final int textView=0x7f070065;
-    public static final int textView_link=0x7f070066;
-    public static final int time=0x7f070067;
-    public static final int title=0x7f070068;
-    public static final int title_template=0x7f070069;
-    public static final int top=0x7f07006a;
-    public static final int topPanel=0x7f07006b;
-    public static final int up=0x7f07006c;
-    public static final int useLogo=0x7f07006d;
-    public static final int vPager=0x7f07006e;
-    public static final int withText=0x7f07006f;
-    public static final int wrap_content=0x7f070070;
+    public static final int textSpacerNoTitle=0x7f070065;
+    public static final int textView=0x7f070066;
+    public static final int textView_link=0x7f070067;
+    public static final int time=0x7f070068;
+    public static final int title=0x7f070069;
+    public static final int titleDividerNoCustom=0x7f07006a;
+    public static final int title_template=0x7f07006b;
+    public static final int top=0x7f07006c;
+    public static final int topPanel=0x7f07006d;
+    public static final int up=0x7f07006e;
+    public static final int useLogo=0x7f07006f;
+    public static final int vPager=0x7f070070;
+    public static final int withText=0x7f070071;
+    public static final int wrap_content=0x7f070072;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -2212,42 +2238,43 @@ public final class R {
     public static final int abc_activity_chooser_view_list_item=0x7f090008;
     public static final int abc_alert_dialog_button_bar_material=0x7f090009;
     public static final int abc_alert_dialog_material=0x7f09000a;
-    public static final int abc_dialog_title_material=0x7f09000b;
-    public static final int abc_expanded_menu_layout=0x7f09000c;
-    public static final int abc_list_menu_item_checkbox=0x7f09000d;
-    public static final int abc_list_menu_item_icon=0x7f09000e;
-    public static final int abc_list_menu_item_layout=0x7f09000f;
-    public static final int abc_list_menu_item_radio=0x7f090010;
-    public static final int abc_popup_menu_header_item_layout=0x7f090011;
-    public static final int abc_popup_menu_item_layout=0x7f090012;
-    public static final int abc_screen_content_include=0x7f090013;
-    public static final int abc_screen_simple=0x7f090014;
-    public static final int abc_screen_simple_overlay_action_mode=0x7f090015;
-    public static final int abc_screen_toolbar=0x7f090016;
-    public static final int abc_search_dropdown_item_icons_2line=0x7f090017;
-    public static final int abc_search_view=0x7f090018;
-    public static final int abc_select_dialog_material=0x7f090019;
-    public static final int activity_main=0x7f09001a;
-    public static final int content_main=0x7f09001b;
-    public static final int notification_action=0x7f09001c;
-    public static final int notification_action_tombstone=0x7f09001d;
-    public static final int notification_media_action=0x7f09001e;
-    public static final int notification_media_cancel_action=0x7f09001f;
-    public static final int notification_template_big_media=0x7f090020;
-    public static final int notification_template_big_media_custom=0x7f090021;
-    public static final int notification_template_big_media_narrow=0x7f090022;
-    public static final int notification_template_big_media_narrow_custom=0x7f090023;
-    public static final int notification_template_custom_big=0x7f090024;
-    public static final int notification_template_icon_group=0x7f090025;
-    public static final int notification_template_lines_media=0x7f090026;
-    public static final int notification_template_media=0x7f090027;
-    public static final int notification_template_media_custom=0x7f090028;
-    public static final int notification_template_part_chronometer=0x7f090029;
-    public static final int notification_template_part_time=0x7f09002a;
-    public static final int select_dialog_item_material=0x7f09002b;
-    public static final int select_dialog_multichoice_material=0x7f09002c;
-    public static final int select_dialog_singlechoice_material=0x7f09002d;
-    public static final int support_simple_spinner_dropdown_item=0x7f09002e;
+    public static final int abc_alert_dialog_title_material=0x7f09000b;
+    public static final int abc_dialog_title_material=0x7f09000c;
+    public static final int abc_expanded_menu_layout=0x7f09000d;
+    public static final int abc_list_menu_item_checkbox=0x7f09000e;
+    public static final int abc_list_menu_item_icon=0x7f09000f;
+    public static final int abc_list_menu_item_layout=0x7f090010;
+    public static final int abc_list_menu_item_radio=0x7f090011;
+    public static final int abc_popup_menu_header_item_layout=0x7f090012;
+    public static final int abc_popup_menu_item_layout=0x7f090013;
+    public static final int abc_screen_content_include=0x7f090014;
+    public static final int abc_screen_simple=0x7f090015;
+    public static final int abc_screen_simple_overlay_action_mode=0x7f090016;
+    public static final int abc_screen_toolbar=0x7f090017;
+    public static final int abc_search_dropdown_item_icons_2line=0x7f090018;
+    public static final int abc_search_view=0x7f090019;
+    public static final int abc_select_dialog_material=0x7f09001a;
+    public static final int activity_main=0x7f09001b;
+    public static final int content_main=0x7f09001c;
+    public static final int notification_action=0x7f09001d;
+    public static final int notification_action_tombstone=0x7f09001e;
+    public static final int notification_media_action=0x7f09001f;
+    public static final int notification_media_cancel_action=0x7f090020;
+    public static final int notification_template_big_media=0x7f090021;
+    public static final int notification_template_big_media_custom=0x7f090022;
+    public static final int notification_template_big_media_narrow=0x7f090023;
+    public static final int notification_template_big_media_narrow_custom=0x7f090024;
+    public static final int notification_template_custom_big=0x7f090025;
+    public static final int notification_template_icon_group=0x7f090026;
+    public static final int notification_template_lines_media=0x7f090027;
+    public static final int notification_template_media=0x7f090028;
+    public static final int notification_template_media_custom=0x7f090029;
+    public static final int notification_template_part_chronometer=0x7f09002a;
+    public static final int notification_template_part_time=0x7f09002b;
+    public static final int select_dialog_item_material=0x7f09002c;
+    public static final int select_dialog_multichoice_material=0x7f09002d;
+    public static final int select_dialog_singlechoice_material=0x7f09002e;
+    public static final int support_simple_spinner_dropdown_item=0x7f09002f;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;
@@ -2336,311 +2363,315 @@ public final class R {
     public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c002c;
     public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c002d;
     public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0c002e;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c002f;
-    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c0030;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c0031;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c0032;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c0033;
-    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c0034;
-    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c0035;
-    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c0036;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c0037;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c0038;
-    public static final int Base_Theme_AppCompat=0x7f0c0039;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c003a;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f0c003b;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c003c;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c003d;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c003e;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c003f;
-    public static final int Base_Theme_AppCompat_Light=0x7f0c0040;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c0041;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0042;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c0043;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c0044;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0045;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0046;
-    public static final int Base_ThemeOverlay_AppCompat=0x7f0c0047;
-    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c0048;
-    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c0049;
-    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c004a;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0c004b;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c004c;
-    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c004d;
-    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c004e;
-    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c004f;
-    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0c0050;
-    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c0051;
-    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c0052;
-    public static final int Base_V21_Theme_AppCompat=0x7f0c0053;
-    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c0054;
-    public static final int Base_V21_Theme_AppCompat_Light=0x7f0c0055;
-    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c0056;
-    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0c0057;
-    public static final int Base_V22_Theme_AppCompat=0x7f0c0058;
-    public static final int Base_V22_Theme_AppCompat_Light=0x7f0c0059;
-    public static final int Base_V23_Theme_AppCompat=0x7f0c005a;
-    public static final int Base_V23_Theme_AppCompat_Light=0x7f0c005b;
-    public static final int Base_V7_Theme_AppCompat=0x7f0c005c;
-    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c005d;
-    public static final int Base_V7_Theme_AppCompat_Light=0x7f0c005e;
-    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c005f;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0c0060;
-    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c0061;
-    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c0062;
-    public static final int Base_Widget_AppCompat_ActionBar=0x7f0c0063;
-    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c0064;
-    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c0065;
-    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c0066;
-    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0067;
-    public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0068;
-    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0069;
-    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c006a;
-    public static final int Base_Widget_AppCompat_ActionMode=0x7f0c006b;
-    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c006c;
-    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c006d;
-    public static final int Base_Widget_AppCompat_Button=0x7f0c006e;
-    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c006f;
-    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c0070;
-    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0071;
-    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0c0072;
-    public static final int Base_Widget_AppCompat_Button_Small=0x7f0c0073;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c0074;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0075;
-    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0076;
-    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0077;
-    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c0078;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c0079;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c007a;
-    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c007b;
-    public static final int Base_Widget_AppCompat_EditText=0x7f0c007c;
-    public static final int Base_Widget_AppCompat_ImageButton=0x7f0c007d;
-    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c007e;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c007f;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0080;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0081;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0082;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0083;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c0084;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0085;
-    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0c0086;
-    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c0087;
-    public static final int Base_Widget_AppCompat_ListView=0x7f0c0088;
-    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c0089;
-    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c008a;
-    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c008b;
-    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c008c;
-    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c008d;
-    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c008e;
-    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c008f;
-    public static final int Base_Widget_AppCompat_RatingBar=0x7f0c0090;
-    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0c0091;
-    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0c0092;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0c0093;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c0094;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0c0095;
-    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0c0096;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0c0097;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c0098;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c0099;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0c009a;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c009b;
-    public static final int CardView=0x7f0c009c;
-    public static final int CardView_Dark=0x7f0c009d;
-    public static final int CardView_Light=0x7f0c009e;
-    public static final int Platform_AppCompat=0x7f0c009f;
-    public static final int Platform_AppCompat_Light=0x7f0c00a0;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0c00a1;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c00a2;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c00a3;
-    public static final int Platform_V11_AppCompat=0x7f0c00a4;
-    public static final int Platform_V11_AppCompat_Light=0x7f0c00a5;
-    public static final int Platform_V14_AppCompat=0x7f0c00a6;
-    public static final int Platform_V14_AppCompat_Light=0x7f0c00a7;
-    public static final int Platform_V21_AppCompat=0x7f0c00a8;
-    public static final int Platform_V21_AppCompat_Light=0x7f0c00a9;
-    public static final int Platform_V25_AppCompat=0x7f0c00aa;
-    public static final int Platform_V25_AppCompat_Light=0x7f0c00ab;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0c00ac;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c00ad;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c00ae;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c00af;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c00b0;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c00b1;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00b2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00b3;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00b4;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00b5;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00b6;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00b7;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00b8;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00b9;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00ba;
-    public static final int TextAppearance_AppCompat=0x7f0c00bb;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0c00bc;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0c00bd;
-    public static final int TextAppearance_AppCompat_Button=0x7f0c00be;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0c00bf;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0c00c0;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0c00c1;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0c00c2;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0c00c3;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0c00c4;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0c00c5;
-    public static final int TextAppearance_AppCompat_Large=0x7f0c00c6;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00c7;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00c8;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00c9;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00ca;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00cb;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0c00cc;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00cd;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0c00ce;
-    public static final int TextAppearance_AppCompat_Notification=0x7f0c00cf;
-    public static final int TextAppearance_AppCompat_Notification_Info=0x7f0c00d0;
-    public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0c00d1;
-    public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0c00d2;
-    public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0c00d3;
-    public static final int TextAppearance_AppCompat_Notification_Media=0x7f0c00d4;
-    public static final int TextAppearance_AppCompat_Notification_Time=0x7f0c00d5;
-    public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0c00d6;
-    public static final int TextAppearance_AppCompat_Notification_Title=0x7f0c00d7;
-    public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0c00d8;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00d9;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00da;
-    public static final int TextAppearance_AppCompat_Small=0x7f0c00db;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00dc;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0c00dd;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00de;
-    public static final int TextAppearance_AppCompat_Title=0x7f0c00df;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00e0;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00e1;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00e2;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00e3;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00e4;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00e5;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c00e6;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c00e7;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c00e8;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c00e9;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c00ea;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00eb;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00ec;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c00ed;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00ee;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00ef;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c00f0;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00f1;
-    public static final int TextAppearance_StatusBar_EventContent=0x7f0c00f2;
-    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c00f3;
-    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c00f4;
-    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c00f5;
-    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c00f6;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c00f7;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c00f8;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00f9;
-    public static final int Theme_AppCompat=0x7f0c00fa;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0c00fb;
-    public static final int Theme_AppCompat_DayNight=0x7f0c00fc;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0c00fd;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0c00fe;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0c00ff;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0c0100;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0c0101;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0c0102;
-    public static final int Theme_AppCompat_Dialog=0x7f0c0103;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0c0104;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c0105;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c0106;
-    public static final int Theme_AppCompat_Light=0x7f0c0107;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c0108;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0c0109;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c010a;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c010b;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c010c;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c010d;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0c010e;
-    public static final int ThemeOverlay_AppCompat=0x7f0c010f;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c0110;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0c0111;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0112;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0c0113;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c0114;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0c0115;
-    public static final int Widget_AppCompat_ActionBar=0x7f0c0116;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c0117;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c0118;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c0119;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c011a;
-    public static final int Widget_AppCompat_ActionButton=0x7f0c011b;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c011c;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c011d;
-    public static final int Widget_AppCompat_ActionMode=0x7f0c011e;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0c011f;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c0120;
-    public static final int Widget_AppCompat_Button=0x7f0c0121;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0c0122;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c0123;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0124;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0c0125;
-    public static final int Widget_AppCompat_Button_Small=0x7f0c0126;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0c0127;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0128;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0129;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c012a;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c012b;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c012c;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c012d;
-    public static final int Widget_AppCompat_EditText=0x7f0c012e;
-    public static final int Widget_AppCompat_ImageButton=0x7f0c012f;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0c0130;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0131;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0132;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0133;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0134;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0135;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0136;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0137;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c0138;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0c0139;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c013a;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c013b;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c013c;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c013d;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c013e;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c013f;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0140;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0141;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0142;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0143;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0c0144;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0145;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0c0146;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0c0147;
-    public static final int Widget_AppCompat_ListView=0x7f0c0148;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0c0149;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0c014a;
-    public static final int Widget_AppCompat_NotificationActionContainer=0x7f0c014b;
-    public static final int Widget_AppCompat_NotificationActionText=0x7f0c014c;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0c014d;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c014e;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0c014f;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0c0150;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0151;
-    public static final int Widget_AppCompat_RatingBar=0x7f0c0152;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0c0153;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0c0154;
-    public static final int Widget_AppCompat_SearchView=0x7f0c0155;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c0156;
-    public static final int Widget_AppCompat_SeekBar=0x7f0c0157;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0c0158;
-    public static final int Widget_AppCompat_Spinner=0x7f0c0159;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c015a;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c015b;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c015c;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c015d;
-    public static final int Widget_AppCompat_Toolbar=0x7f0c015e;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c015f;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0c002f;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0c0030;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c0031;
+    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c0032;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c0033;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c0034;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c0035;
+    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c0036;
+    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c0037;
+    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c0038;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c0039;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c003a;
+    public static final int Base_Theme_AppCompat=0x7f0c003b;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c003c;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f0c003d;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c003e;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c003f;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c0040;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c0041;
+    public static final int Base_Theme_AppCompat_Light=0x7f0c0042;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c0043;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0044;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c0045;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c0046;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0047;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0048;
+    public static final int Base_ThemeOverlay_AppCompat=0x7f0c0049;
+    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c004a;
+    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c004b;
+    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c004c;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0c004d;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c004e;
+    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c004f;
+    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c0050;
+    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c0051;
+    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0c0052;
+    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c0053;
+    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c0054;
+    public static final int Base_V21_Theme_AppCompat=0x7f0c0055;
+    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c0056;
+    public static final int Base_V21_Theme_AppCompat_Light=0x7f0c0057;
+    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c0058;
+    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0c0059;
+    public static final int Base_V22_Theme_AppCompat=0x7f0c005a;
+    public static final int Base_V22_Theme_AppCompat_Light=0x7f0c005b;
+    public static final int Base_V23_Theme_AppCompat=0x7f0c005c;
+    public static final int Base_V23_Theme_AppCompat_Light=0x7f0c005d;
+    public static final int Base_V7_Theme_AppCompat=0x7f0c005e;
+    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c005f;
+    public static final int Base_V7_Theme_AppCompat_Light=0x7f0c0060;
+    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c0061;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0c0062;
+    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c0063;
+    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c0064;
+    public static final int Base_Widget_AppCompat_ActionBar=0x7f0c0065;
+    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c0066;
+    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c0067;
+    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c0068;
+    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0069;
+    public static final int Base_Widget_AppCompat_ActionButton=0x7f0c006a;
+    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c006b;
+    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c006c;
+    public static final int Base_Widget_AppCompat_ActionMode=0x7f0c006d;
+    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c006e;
+    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c006f;
+    public static final int Base_Widget_AppCompat_Button=0x7f0c0070;
+    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c0071;
+    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c0072;
+    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0073;
+    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0c0074;
+    public static final int Base_Widget_AppCompat_Button_Small=0x7f0c0075;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c0076;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0077;
+    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0078;
+    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0079;
+    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c007a;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c007b;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c007c;
+    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c007d;
+    public static final int Base_Widget_AppCompat_EditText=0x7f0c007e;
+    public static final int Base_Widget_AppCompat_ImageButton=0x7f0c007f;
+    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c0080;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0081;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0082;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0083;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0084;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0085;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c0086;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0087;
+    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0c0088;
+    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c0089;
+    public static final int Base_Widget_AppCompat_ListView=0x7f0c008a;
+    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c008b;
+    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c008c;
+    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c008d;
+    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c008e;
+    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c008f;
+    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c0090;
+    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0091;
+    public static final int Base_Widget_AppCompat_RatingBar=0x7f0c0092;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0c0093;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0c0094;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0c0095;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c0096;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0c0097;
+    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0c0098;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0c0099;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c009a;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c009b;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0c009c;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c009d;
+    public static final int CardView=0x7f0c009e;
+    public static final int CardView_Dark=0x7f0c009f;
+    public static final int CardView_Light=0x7f0c00a0;
+    public static final int Platform_AppCompat=0x7f0c00a1;
+    public static final int Platform_AppCompat_Light=0x7f0c00a2;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0c00a3;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c00a4;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c00a5;
+    public static final int Platform_V11_AppCompat=0x7f0c00a6;
+    public static final int Platform_V11_AppCompat_Light=0x7f0c00a7;
+    public static final int Platform_V14_AppCompat=0x7f0c00a8;
+    public static final int Platform_V14_AppCompat_Light=0x7f0c00a9;
+    public static final int Platform_V21_AppCompat=0x7f0c00aa;
+    public static final int Platform_V21_AppCompat_Light=0x7f0c00ab;
+    public static final int Platform_V25_AppCompat=0x7f0c00ac;
+    public static final int Platform_V25_AppCompat_Light=0x7f0c00ad;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0c00ae;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c00af;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c00b0;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c00b1;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c00b2;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c00b3;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00b4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00b5;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00b6;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00b7;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00b8;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00b9;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00ba;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00bb;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00bc;
+    public static final int TextAppearance_AppCompat=0x7f0c00bd;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0c00be;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0c00bf;
+    public static final int TextAppearance_AppCompat_Button=0x7f0c00c0;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0c00c1;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0c00c2;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0c00c3;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0c00c4;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0c00c5;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0c00c6;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0c00c7;
+    public static final int TextAppearance_AppCompat_Large=0x7f0c00c8;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00c9;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00ca;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00cb;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00cc;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00cd;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0c00ce;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00cf;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0c00d0;
+    public static final int TextAppearance_AppCompat_Notification=0x7f0c00d1;
+    public static final int TextAppearance_AppCompat_Notification_Info=0x7f0c00d2;
+    public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0c00d3;
+    public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0c00d4;
+    public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0c00d5;
+    public static final int TextAppearance_AppCompat_Notification_Media=0x7f0c00d6;
+    public static final int TextAppearance_AppCompat_Notification_Time=0x7f0c00d7;
+    public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0c00d8;
+    public static final int TextAppearance_AppCompat_Notification_Title=0x7f0c00d9;
+    public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0c00da;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00db;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00dc;
+    public static final int TextAppearance_AppCompat_Small=0x7f0c00dd;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00de;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0c00df;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00e0;
+    public static final int TextAppearance_AppCompat_Title=0x7f0c00e1;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00e2;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00e3;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00e4;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00e5;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00e6;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00e7;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c00e8;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c00e9;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c00ea;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c00eb;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c00ec;
+    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0c00ed;
+    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0c00ee;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00ef;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00f0;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c00f1;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00f2;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00f3;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c00f4;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00f5;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f0c00f6;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c00f7;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c00f8;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c00f9;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c00fa;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c00fb;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c00fc;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00fd;
+    public static final int Theme_AppCompat=0x7f0c00fe;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0c00ff;
+    public static final int Theme_AppCompat_DayNight=0x7f0c0100;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0c0101;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0c0102;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0c0103;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0c0104;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0c0105;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0c0106;
+    public static final int Theme_AppCompat_Dialog=0x7f0c0107;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0c0108;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c0109;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c010a;
+    public static final int Theme_AppCompat_Light=0x7f0c010b;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c010c;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0c010d;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c010e;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c010f;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0110;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c0111;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0c0112;
+    public static final int ThemeOverlay_AppCompat=0x7f0c0113;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c0114;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0c0115;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0116;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0c0117;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c0118;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0c0119;
+    public static final int Widget_AppCompat_ActionBar=0x7f0c011a;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c011b;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c011c;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c011d;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c011e;
+    public static final int Widget_AppCompat_ActionButton=0x7f0c011f;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c0120;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c0121;
+    public static final int Widget_AppCompat_ActionMode=0x7f0c0122;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0c0123;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c0124;
+    public static final int Widget_AppCompat_Button=0x7f0c0125;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0c0126;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c0127;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0128;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0c0129;
+    public static final int Widget_AppCompat_Button_Small=0x7f0c012a;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0c012b;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c012c;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c012d;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c012e;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c012f;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c0130;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c0131;
+    public static final int Widget_AppCompat_EditText=0x7f0c0132;
+    public static final int Widget_AppCompat_ImageButton=0x7f0c0133;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0c0134;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0135;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0136;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0137;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0138;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0139;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c013a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c013b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c013c;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0c013d;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c013e;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c013f;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c0140;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c0141;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c0142;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c0143;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0144;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0145;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0146;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0147;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0c0148;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0149;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0c014a;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0c014b;
+    public static final int Widget_AppCompat_ListView=0x7f0c014c;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0c014d;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0c014e;
+    public static final int Widget_AppCompat_NotificationActionContainer=0x7f0c014f;
+    public static final int Widget_AppCompat_NotificationActionText=0x7f0c0150;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0c0151;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c0152;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0c0153;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0c0154;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0155;
+    public static final int Widget_AppCompat_RatingBar=0x7f0c0156;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0c0157;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0c0158;
+    public static final int Widget_AppCompat_SearchView=0x7f0c0159;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c015a;
+    public static final int Widget_AppCompat_SeekBar=0x7f0c015b;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0c015c;
+    public static final int Widget_AppCompat_Spinner=0x7f0c015d;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c015e;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c015f;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c0160;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c0161;
+    public static final int Widget_AppCompat_Toolbar=0x7f0c0162;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0163;
   }
   public static final class styleable {
     /**
@@ -2650,35 +2681,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.nightowl.inshort:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.nightowl.inshort:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.nightowl.inshort:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.nightowl.inshort:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.nightowl.inshort:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.nightowl.inshort:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.nightowl.inshort:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.nightowl.inshort:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.nightowl.inshort:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.nightowl.inshort:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.nightowl.inshort:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.nightowl.inshort:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.nightowl.inshort:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.nightowl.inshort:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.nightowl.inshort:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.nightowl.inshort:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.nightowl.inshort:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.nightowl.inshort:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.nightowl.inshort:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.nightowl.inshort:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.nightowl.inshort:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.nightowl.inshort:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.nightowl.inshort:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.nightowl.inshort:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.nightowl.inshort:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.nightowl.inshort:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.nightowl.inshort:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.nightowl.inshort:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.nightowl.inshort:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.dipu.inshort:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.dipu.inshort:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.dipu.inshort:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.dipu.inshort:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.dipu.inshort:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.dipu.inshort:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.dipu.inshort:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.dipu.inshort:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.dipu.inshort:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.dipu.inshort:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.dipu.inshort:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.dipu.inshort:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.dipu.inshort:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.dipu.inshort:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.dipu.inshort:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.dipu.inshort:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.dipu.inshort:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.dipu.inshort:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.dipu.inshort:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.dipu.inshort:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.dipu.inshort:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.dipu.inshort:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.dipu.inshort:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.dipu.inshort:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.dipu.inshort:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.dipu.inshort:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.dipu.inshort:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.dipu.inshort:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.dipu.inshort:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -2716,12 +2747,12 @@ public final class R {
         0x7f020059, 0x7f020060, 0x7f020064, 0x7f020065, 
         0x7f020070, 0x7f020074, 0x7f020075, 0x7f020076, 
         0x7f020077, 0x7f020078, 0x7f02007b, 0x7f02007e, 
-        0x7f02008b, 0x7f020092, 0x7f02009a, 0x7f02009d, 
-        0x7f02009e, 0x7f0200b7, 0x7f0200ba, 0x7f0200d2, 
-        0x7f0200db
+        0x7f02008b, 0x7f020092, 0x7f02009c, 0x7f02009f, 
+        0x7f0200a0, 0x7f0200ba, 0x7f0200bd, 0x7f0200d5, 
+        0x7f0200de
       };
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2729,11 +2760,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:background
+     * @attr name com.dipu.inshort:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2744,11 +2775,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:backgroundSplit
+     * @attr name com.dipu.inshort:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2759,11 +2790,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:backgroundStacked
+     * @attr name com.dipu.inshort:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2772,11 +2803,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetEnd
+     * @attr name com.dipu.inshort:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2785,11 +2816,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetEndWithActions
+     * @attr name com.dipu.inshort:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2798,11 +2829,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetLeft
+     * @attr name com.dipu.inshort:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2811,11 +2842,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetRight
+     * @attr name com.dipu.inshort:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2824,11 +2855,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetStart
+     * @attr name com.dipu.inshort:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2837,11 +2868,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetStartWithNavigation
+     * @attr name com.dipu.inshort:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2849,11 +2880,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:customNavigationLayout
+     * @attr name com.dipu.inshort:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -2871,11 +2902,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:displayOptions
+     * @attr name com.dipu.inshort:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2883,11 +2914,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:divider
+     * @attr name com.dipu.inshort:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2896,11 +2927,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:elevation
+     * @attr name com.dipu.inshort:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2909,21 +2940,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:height
+     * @attr name com.dipu.inshort:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:hideOnContentScroll
+     * @attr name com.dipu.inshort:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2931,11 +2962,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:homeAsUpIndicator
+     * @attr name com.dipu.inshort:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2943,11 +2974,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:homeLayout
+     * @attr name com.dipu.inshort:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2955,11 +2986,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:icon
+     * @attr name com.dipu.inshort:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2967,11 +2998,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:indeterminateProgressStyle
+     * @attr name com.dipu.inshort:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2980,11 +3011,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:itemPadding
+     * @attr name com.dipu.inshort:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -2992,11 +3023,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:logo
+     * @attr name com.dipu.inshort:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3010,11 +3041,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:navigationMode
+     * @attr name com.dipu.inshort:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3022,11 +3053,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:popupTheme
+     * @attr name com.dipu.inshort:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3035,11 +3066,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:progressBarPadding
+     * @attr name com.dipu.inshort:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3047,21 +3078,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:progressBarStyle
+     * @attr name com.dipu.inshort:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:subtitle
+     * @attr name com.dipu.inshort:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3069,21 +3100,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:subtitleTextStyle
+     * @attr name com.dipu.inshort:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:title
+     * @attr name com.dipu.inshort:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3091,7 +3122,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:titleTextStyle
+     * @attr name com.dipu.inshort:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -3173,12 +3204,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.nightowl.inshort:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.nightowl.inshort:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.nightowl.inshort:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.nightowl.inshort:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.nightowl.inshort:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.nightowl.inshort:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.dipu.inshort:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.dipu.inshort:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.dipu.inshort:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.dipu.inshort:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.dipu.inshort:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.dipu.inshort:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -3189,10 +3220,10 @@ public final class R {
      */
     public static final int[] ActionMode={
         0x7f02002b, 0x7f02002c, 0x7f020046, 0x7f020074, 
-        0x7f0200ba, 0x7f0200db
+        0x7f0200bd, 0x7f0200de
       };
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3200,11 +3231,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:background
+     * @attr name com.dipu.inshort:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3215,11 +3246,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:backgroundSplit
+     * @attr name com.dipu.inshort:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3227,11 +3258,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:closeItemLayout
+     * @attr name com.dipu.inshort:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3240,11 +3271,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:height
+     * @attr name com.dipu.inshort:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3252,11 +3283,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:subtitleTextStyle
+     * @attr name com.dipu.inshort:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3264,7 +3295,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:titleTextStyle
+     * @attr name com.dipu.inshort:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -3274,8 +3305,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.nightowl.inshort:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.nightowl.inshort:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.dipu.inshort:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.dipu.inshort:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -3284,7 +3315,7 @@ public final class R {
         0x7f020071, 0x7f02007c
       };
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3292,17 +3323,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:expandActivityOverflowButtonDrawable
+     * @attr name com.dipu.inshort:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:initialActivityCount
+     * @attr name com.dipu.inshort:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -3313,22 +3344,24 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.nightowl.inshort:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.nightowl.inshort:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.nightowl.inshort:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.nightowl.inshort:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.nightowl.inshort:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.dipu.inshort:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.dipu.inshort:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.dipu.inshort:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.dipu.inshort:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.dipu.inshort:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.dipu.inshort:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
      * @see #AlertDialog_listItemLayout
      * @see #AlertDialog_listLayout
      * @see #AlertDialog_multiChoiceItemLayout
+     * @see #AlertDialog_showTitle
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
         0x010100f2, 0x7f020038, 0x7f020082, 0x7f020083, 
-        0x7f02008f, 0x7f0200ae
+        0x7f02008f, 0x7f0200b0, 0x7f0200b1
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -3343,7 +3376,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3351,11 +3384,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonPanelSideLayout
+     * @attr name com.dipu.inshort:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3363,11 +3396,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:listItemLayout
+     * @attr name com.dipu.inshort:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3375,11 +3408,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:listLayout
+     * @attr name com.dipu.inshort:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3387,11 +3420,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:multiChoiceItemLayout
+     * @attr name com.dipu.inshort:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#showTitle}
+     * attribute's value can be found in the {@link #AlertDialog} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.dipu.inshort:showTitle
+     */
+    public static final int AlertDialog_showTitle=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3399,9 +3442,9 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:singleChoiceItemLayout
+     * @attr name com.dipu.inshort:singleChoiceItemLayout
      */
-    public static final int AlertDialog_singleChoiceItemLayout=5;
+    public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
      * Attributes that can be used with a AppCompatImageView.
      * <p>Includes the following attributes:</p>
@@ -3410,13 +3453,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.nightowl.inshort:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.dipu.inshort:srcCompat}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f0200b3
+        0x01010119, 0x7f0200b6
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -3434,7 +3477,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3442,7 +3485,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:srcCompat
+     * @attr name com.dipu.inshort:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
@@ -3453,9 +3496,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.nightowl.inshort:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.nightowl.inshort:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.nightowl.inshort:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.dipu.inshort:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.dipu.inshort:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.dipu.inshort:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -3463,7 +3506,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f0200cf, 0x7f0200d0, 0x7f0200d1
+        0x01010142, 0x7f0200d2, 0x7f0200d3, 0x7f0200d4
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -3478,7 +3521,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3486,22 +3529,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:tickMark
+     * @attr name com.dipu.inshort:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:tickMarkTint
+     * @attr name com.dipu.inshort:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3518,7 +3561,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:tickMarkTintMode
+     * @attr name com.dipu.inshort:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -3658,13 +3701,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.nightowl.inshort:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.dipu.inshort:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-        0x01010034, 0x7f0200c0
+        0x01010034, 0x7f0200c3
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -3679,7 +3722,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3689,7 +3732,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:textAllCaps
+     * @attr name com.dipu.inshort:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=1;
     /**
@@ -3701,119 +3744,119 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.nightowl.inshort:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.nightowl.inshort:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.nightowl.inshort:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.nightowl.inshort:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.nightowl.inshort:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.nightowl.inshort:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.nightowl.inshort:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.nightowl.inshort:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.nightowl.inshort:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.nightowl.inshort:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.nightowl.inshort:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.nightowl.inshort:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.nightowl.inshort:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.nightowl.inshort:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.nightowl.inshort:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.nightowl.inshort:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.nightowl.inshort:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.nightowl.inshort:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.nightowl.inshort:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.nightowl.inshort:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.nightowl.inshort:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.nightowl.inshort:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.nightowl.inshort:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.nightowl.inshort:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.nightowl.inshort:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.nightowl.inshort:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.nightowl.inshort:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.nightowl.inshort:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.nightowl.inshort:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.nightowl.inshort:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.nightowl.inshort:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.nightowl.inshort:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.nightowl.inshort:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.nightowl.inshort:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.nightowl.inshort:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.nightowl.inshort:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.nightowl.inshort:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.nightowl.inshort:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.nightowl.inshort:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.nightowl.inshort:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.nightowl.inshort:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.nightowl.inshort:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.nightowl.inshort:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.nightowl.inshort:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.nightowl.inshort:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.nightowl.inshort:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.nightowl.inshort:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.nightowl.inshort:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.nightowl.inshort:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.nightowl.inshort:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.nightowl.inshort:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.nightowl.inshort:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.nightowl.inshort:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.nightowl.inshort:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.nightowl.inshort:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.nightowl.inshort:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.nightowl.inshort:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.nightowl.inshort:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.nightowl.inshort:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.nightowl.inshort:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.nightowl.inshort:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.nightowl.inshort:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.nightowl.inshort:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.nightowl.inshort:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.nightowl.inshort:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.nightowl.inshort:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.nightowl.inshort:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.nightowl.inshort:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.nightowl.inshort:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.nightowl.inshort:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.nightowl.inshort:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.nightowl.inshort:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.nightowl.inshort:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.nightowl.inshort:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.nightowl.inshort:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.nightowl.inshort:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.nightowl.inshort:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.nightowl.inshort:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.nightowl.inshort:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.nightowl.inshort:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.nightowl.inshort:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.nightowl.inshort:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.nightowl.inshort:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.nightowl.inshort:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.nightowl.inshort:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.nightowl.inshort:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.nightowl.inshort:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.nightowl.inshort:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.nightowl.inshort:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.nightowl.inshort:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.nightowl.inshort:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.nightowl.inshort:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.nightowl.inshort:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.nightowl.inshort:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.nightowl.inshort:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.nightowl.inshort:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.nightowl.inshort:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.nightowl.inshort:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.nightowl.inshort:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.nightowl.inshort:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.nightowl.inshort:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.nightowl.inshort:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.nightowl.inshort:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.nightowl.inshort:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.nightowl.inshort:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.nightowl.inshort:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.nightowl.inshort:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.nightowl.inshort:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.nightowl.inshort:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.nightowl.inshort:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.nightowl.inshort:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.nightowl.inshort:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.nightowl.inshort:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.dipu.inshort:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.dipu.inshort:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.dipu.inshort:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.dipu.inshort:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.dipu.inshort:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.dipu.inshort:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.dipu.inshort:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.dipu.inshort:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.dipu.inshort:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.dipu.inshort:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.dipu.inshort:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.dipu.inshort:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.dipu.inshort:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.dipu.inshort:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.dipu.inshort:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.dipu.inshort:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.dipu.inshort:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.dipu.inshort:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.dipu.inshort:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.dipu.inshort:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.dipu.inshort:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.dipu.inshort:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.dipu.inshort:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.dipu.inshort:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.dipu.inshort:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.dipu.inshort:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.dipu.inshort:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.dipu.inshort:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.dipu.inshort:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.dipu.inshort:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.dipu.inshort:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.dipu.inshort:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.dipu.inshort:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.dipu.inshort:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.dipu.inshort:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.dipu.inshort:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.dipu.inshort:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.dipu.inshort:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.dipu.inshort:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.dipu.inshort:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.dipu.inshort:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.dipu.inshort:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.dipu.inshort:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.dipu.inshort:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.dipu.inshort:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.dipu.inshort:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.dipu.inshort:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.dipu.inshort:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.dipu.inshort:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.dipu.inshort:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.dipu.inshort:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.dipu.inshort:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.dipu.inshort:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.dipu.inshort:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.dipu.inshort:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.dipu.inshort:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.dipu.inshort:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.dipu.inshort:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.dipu.inshort:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.dipu.inshort:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.dipu.inshort:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.dipu.inshort:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.dipu.inshort:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.dipu.inshort:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.dipu.inshort:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.dipu.inshort:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.dipu.inshort:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.dipu.inshort:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.dipu.inshort:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.dipu.inshort:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.dipu.inshort:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.dipu.inshort:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.dipu.inshort:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.dipu.inshort:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.dipu.inshort:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.dipu.inshort:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.dipu.inshort:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.dipu.inshort:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.dipu.inshort:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.dipu.inshort:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.dipu.inshort:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.dipu.inshort:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.dipu.inshort:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.dipu.inshort:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.dipu.inshort:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.dipu.inshort:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.dipu.inshort:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.dipu.inshort:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.dipu.inshort:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.dipu.inshort:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.dipu.inshort:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.dipu.inshort:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.dipu.inshort:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.dipu.inshort:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.dipu.inshort:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.dipu.inshort:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.dipu.inshort:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.dipu.inshort:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.dipu.inshort:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.dipu.inshort:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.dipu.inshort:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.dipu.inshort:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.dipu.inshort:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.dipu.inshort:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.dipu.inshort:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.dipu.inshort:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.dipu.inshort:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.dipu.inshort:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.dipu.inshort:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.dipu.inshort:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.dipu.inshort:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.dipu.inshort:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.dipu.inshort:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -3951,16 +3994,16 @@ public final class R {
         0x7f02006d, 0x7f02006e, 0x7f02006f, 0x7f020076, 
         0x7f02007a, 0x7f020080, 0x7f020081, 0x7f020084, 
         0x7f020085, 0x7f020086, 0x7f020087, 0x7f020088, 
-        0x7f020089, 0x7f02008a, 0x7f020096, 0x7f020097, 
-        0x7f020098, 0x7f020099, 0x7f02009b, 0x7f0200a1, 
-        0x7f0200a2, 0x7f0200a3, 0x7f0200a4, 0x7f0200a7, 
-        0x7f0200a8, 0x7f0200a9, 0x7f0200aa, 0x7f0200b0, 
-        0x7f0200b1, 0x7f0200be, 0x7f0200c1, 0x7f0200c2, 
-        0x7f0200c3, 0x7f0200c4, 0x7f0200c5, 0x7f0200c6, 
-        0x7f0200c7, 0x7f0200c8, 0x7f0200c9, 0x7f0200dc, 
-        0x7f0200dd, 0x7f0200e2, 0x7f0200e3, 0x7f0200e4, 
-        0x7f0200e5, 0x7f0200e6, 0x7f0200e7, 0x7f0200e8, 
-        0x7f0200e9, 0x7f0200ea, 0x7f0200eb
+        0x7f020089, 0x7f02008a, 0x7f020098, 0x7f020099, 
+        0x7f02009a, 0x7f02009b, 0x7f02009d, 0x7f0200a3, 
+        0x7f0200a4, 0x7f0200a5, 0x7f0200a6, 0x7f0200a9, 
+        0x7f0200aa, 0x7f0200ab, 0x7f0200ac, 0x7f0200b3, 
+        0x7f0200b4, 0x7f0200c1, 0x7f0200c4, 0x7f0200c5, 
+        0x7f0200c6, 0x7f0200c7, 0x7f0200c8, 0x7f0200c9, 
+        0x7f0200ca, 0x7f0200cb, 0x7f0200cc, 0x7f0200df, 
+        0x7f0200e0, 0x7f0200e5, 0x7f0200e6, 0x7f0200e7, 
+        0x7f0200e8, 0x7f0200e9, 0x7f0200ea, 0x7f0200eb, 
+        0x7f0200ec, 0x7f0200ed, 0x7f0200ee
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -3985,7 +4028,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3993,11 +4036,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarDivider
+     * @attr name com.dipu.inshort:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4005,11 +4048,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarItemBackground
+     * @attr name com.dipu.inshort:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4017,11 +4060,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarPopupTheme
+     * @attr name com.dipu.inshort:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4038,11 +4081,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:actionBarSize
+     * @attr name com.dipu.inshort:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4050,11 +4093,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarSplitStyle
+     * @attr name com.dipu.inshort:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4062,11 +4105,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarStyle
+     * @attr name com.dipu.inshort:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4074,11 +4117,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarTabBarStyle
+     * @attr name com.dipu.inshort:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4086,11 +4129,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarTabStyle
+     * @attr name com.dipu.inshort:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4098,11 +4141,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarTabTextStyle
+     * @attr name com.dipu.inshort:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4110,11 +4153,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarTheme
+     * @attr name com.dipu.inshort:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4122,11 +4165,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionBarWidgetTheme
+     * @attr name com.dipu.inshort:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4134,11 +4177,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionButtonStyle
+     * @attr name com.dipu.inshort:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4146,11 +4189,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionDropDownStyle
+     * @attr name com.dipu.inshort:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4158,11 +4201,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionMenuTextAppearance
+     * @attr name com.dipu.inshort:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4173,11 +4216,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionMenuTextColor
+     * @attr name com.dipu.inshort:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4185,11 +4228,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeBackground
+     * @attr name com.dipu.inshort:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4197,11 +4240,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeCloseButtonStyle
+     * @attr name com.dipu.inshort:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4209,11 +4252,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeCloseDrawable
+     * @attr name com.dipu.inshort:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4221,11 +4264,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeCopyDrawable
+     * @attr name com.dipu.inshort:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4233,11 +4276,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeCutDrawable
+     * @attr name com.dipu.inshort:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4245,11 +4288,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeFindDrawable
+     * @attr name com.dipu.inshort:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4257,11 +4300,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModePasteDrawable
+     * @attr name com.dipu.inshort:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4269,11 +4312,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModePopupWindowStyle
+     * @attr name com.dipu.inshort:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4281,11 +4324,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeSelectAllDrawable
+     * @attr name com.dipu.inshort:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4293,11 +4336,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeShareDrawable
+     * @attr name com.dipu.inshort:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4305,11 +4348,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeSplitBackground
+     * @attr name com.dipu.inshort:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4317,11 +4360,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeStyle
+     * @attr name com.dipu.inshort:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4329,11 +4372,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionModeWebSearchDrawable
+     * @attr name com.dipu.inshort:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4341,11 +4384,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionOverflowButtonStyle
+     * @attr name com.dipu.inshort:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4353,11 +4396,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionOverflowMenuStyle
+     * @attr name com.dipu.inshort:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4365,11 +4408,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:activityChooserViewStyle
+     * @attr name com.dipu.inshort:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4377,21 +4420,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:alertDialogButtonGroupStyle
+     * @attr name com.dipu.inshort:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:alertDialogCenterButtons
+     * @attr name com.dipu.inshort:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4399,11 +4442,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:alertDialogStyle
+     * @attr name com.dipu.inshort:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4411,11 +4454,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:alertDialogTheme
+     * @attr name com.dipu.inshort:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4423,11 +4466,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:autoCompleteTextViewStyle
+     * @attr name com.dipu.inshort:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4435,11 +4478,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:borderlessButtonStyle
+     * @attr name com.dipu.inshort:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4447,11 +4490,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonBarButtonStyle
+     * @attr name com.dipu.inshort:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4459,11 +4502,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonBarNegativeButtonStyle
+     * @attr name com.dipu.inshort:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4471,11 +4514,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonBarNeutralButtonStyle
+     * @attr name com.dipu.inshort:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4483,11 +4526,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonBarPositiveButtonStyle
+     * @attr name com.dipu.inshort:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4495,11 +4538,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonBarStyle
+     * @attr name com.dipu.inshort:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4507,11 +4550,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonStyle
+     * @attr name com.dipu.inshort:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4519,11 +4562,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonStyleSmall
+     * @attr name com.dipu.inshort:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4531,11 +4574,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:checkboxStyle
+     * @attr name com.dipu.inshort:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4543,110 +4586,110 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:checkedTextViewStyle
+     * @attr name com.dipu.inshort:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorAccent
+     * @attr name com.dipu.inshort:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorBackgroundFloating
+     * @attr name com.dipu.inshort:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorButtonNormal
+     * @attr name com.dipu.inshort:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorControlActivated
+     * @attr name com.dipu.inshort:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorControlHighlight
+     * @attr name com.dipu.inshort:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorControlNormal
+     * @attr name com.dipu.inshort:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorPrimary
+     * @attr name com.dipu.inshort:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=54;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorPrimaryDark
+     * @attr name com.dipu.inshort:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=55;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:colorSwitchThumbNormal
+     * @attr name com.dipu.inshort:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=56;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4654,11 +4697,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:controlBackground
+     * @attr name com.dipu.inshort:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=57;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4667,11 +4710,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:dialogPreferredPadding
+     * @attr name com.dipu.inshort:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=58;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4679,11 +4722,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:dialogTheme
+     * @attr name com.dipu.inshort:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=59;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4691,11 +4734,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:dividerHorizontal
+     * @attr name com.dipu.inshort:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=60;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4703,11 +4746,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:dividerVertical
+     * @attr name com.dipu.inshort:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=61;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4715,11 +4758,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:dropDownListViewStyle
+     * @attr name com.dipu.inshort:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=62;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4728,11 +4771,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:dropdownListPreferredItemHeight
+     * @attr name com.dipu.inshort:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=63;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4740,11 +4783,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:editTextBackground
+     * @attr name com.dipu.inshort:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=64;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4755,11 +4798,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:editTextColor
+     * @attr name com.dipu.inshort:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=65;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4767,11 +4810,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:editTextStyle
+     * @attr name com.dipu.inshort:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4779,11 +4822,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:homeAsUpIndicator
+     * @attr name com.dipu.inshort:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=67;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4791,11 +4834,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:imageButtonStyle
+     * @attr name com.dipu.inshort:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4803,11 +4846,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:listChoiceBackgroundIndicator
+     * @attr name com.dipu.inshort:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4815,11 +4858,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:listDividerAlertDialog
+     * @attr name com.dipu.inshort:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=70;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4827,11 +4870,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:listMenuViewStyle
+     * @attr name com.dipu.inshort:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=71;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4839,11 +4882,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:listPopupWindowStyle
+     * @attr name com.dipu.inshort:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4852,11 +4895,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:listPreferredItemHeight
+     * @attr name com.dipu.inshort:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=73;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4865,11 +4908,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:listPreferredItemHeightLarge
+     * @attr name com.dipu.inshort:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=74;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4878,11 +4921,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:listPreferredItemHeightSmall
+     * @attr name com.dipu.inshort:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=75;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4891,11 +4934,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:listPreferredItemPaddingLeft
+     * @attr name com.dipu.inshort:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4904,11 +4947,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:listPreferredItemPaddingRight
+     * @attr name com.dipu.inshort:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4916,11 +4959,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:panelBackground
+     * @attr name com.dipu.inshort:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=78;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4928,11 +4971,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:panelMenuListTheme
+     * @attr name com.dipu.inshort:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=79;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4941,11 +4984,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:panelMenuListWidth
+     * @attr name com.dipu.inshort:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=80;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4953,11 +4996,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:popupMenuStyle
+     * @attr name com.dipu.inshort:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=81;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4965,11 +5008,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:popupWindowStyle
+     * @attr name com.dipu.inshort:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4977,11 +5020,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:radioButtonStyle
+     * @attr name com.dipu.inshort:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4989,11 +5032,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:ratingBarStyle
+     * @attr name com.dipu.inshort:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5001,11 +5044,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:ratingBarStyleIndicator
+     * @attr name com.dipu.inshort:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=85;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5013,11 +5056,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:ratingBarStyleSmall
+     * @attr name com.dipu.inshort:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=86;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5025,11 +5068,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:searchViewStyle
+     * @attr name com.dipu.inshort:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=87;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5037,11 +5080,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:seekBarStyle
+     * @attr name com.dipu.inshort:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5049,11 +5092,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:selectableItemBackground
+     * @attr name com.dipu.inshort:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=89;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5061,11 +5104,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:selectableItemBackgroundBorderless
+     * @attr name com.dipu.inshort:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=90;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5073,11 +5116,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:spinnerDropDownItemStyle
+     * @attr name com.dipu.inshort:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=91;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5085,11 +5128,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:spinnerStyle
+     * @attr name com.dipu.inshort:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5097,11 +5140,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:switchStyle
+     * @attr name com.dipu.inshort:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5109,11 +5152,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:textAppearanceLargePopupMenu
+     * @attr name com.dipu.inshort:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=94;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5121,11 +5164,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:textAppearanceListItem
+     * @attr name com.dipu.inshort:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=95;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5133,11 +5176,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:textAppearanceListItemSmall
+     * @attr name com.dipu.inshort:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=96;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5145,11 +5188,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:textAppearancePopupMenuHeader
+     * @attr name com.dipu.inshort:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=97;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5157,11 +5200,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:textAppearanceSearchResultSubtitle
+     * @attr name com.dipu.inshort:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=98;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5169,11 +5212,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:textAppearanceSearchResultTitle
+     * @attr name com.dipu.inshort:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=99;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5181,11 +5224,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:textAppearanceSmallPopupMenu
+     * @attr name com.dipu.inshort:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=100;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5196,11 +5239,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:textColorAlertDialogListItem
+     * @attr name com.dipu.inshort:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=101;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5211,11 +5254,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:textColorSearchUrl
+     * @attr name com.dipu.inshort:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=102;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5223,11 +5266,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:toolbarNavigationButtonStyle
+     * @attr name com.dipu.inshort:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=103;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5235,41 +5278,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:toolbarStyle
+     * @attr name com.dipu.inshort:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=104;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:windowActionBar
+     * @attr name com.dipu.inshort:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=105;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:windowActionBarOverlay
+     * @attr name com.dipu.inshort:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=106;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:windowActionModeOverlay
+     * @attr name com.dipu.inshort:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=107;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5282,11 +5325,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.nightowl.inshort:windowFixedHeightMajor
+     * @attr name com.dipu.inshort:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=108;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5299,11 +5342,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.nightowl.inshort:windowFixedHeightMinor
+     * @attr name com.dipu.inshort:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=109;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5316,11 +5359,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.nightowl.inshort:windowFixedWidthMajor
+     * @attr name com.dipu.inshort:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=110;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5333,11 +5376,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.nightowl.inshort:windowFixedWidthMinor
+     * @attr name com.dipu.inshort:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=111;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5350,11 +5393,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.nightowl.inshort:windowMinWidthMajor
+     * @attr name com.dipu.inshort:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5367,17 +5410,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.nightowl.inshort:windowMinWidthMinor
+     * @attr name com.dipu.inshort:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:windowNoTitle
+     * @attr name com.dipu.inshort:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=114;
     /**
@@ -5387,7 +5430,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.nightowl.inshort:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.dipu.inshort:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -5395,13 +5438,13 @@ public final class R {
         0x7f020026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:allowStacking
+     * @attr name com.dipu.inshort:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -5413,17 +5456,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.nightowl.inshort:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.nightowl.inshort:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.nightowl.inshort:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.nightowl.inshort:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.nightowl.inshort:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.nightowl.inshort:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.nightowl.inshort:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.nightowl.inshort:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.nightowl.inshort:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.nightowl.inshort:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.nightowl.inshort:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor com.dipu.inshort:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius com.dipu.inshort:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation com.dipu.inshort:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation com.dipu.inshort:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.dipu.inshort:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.dipu.inshort:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding com.dipu.inshort:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom com.dipu.inshort:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft com.dipu.inshort:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight com.dipu.inshort:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop com.dipu.inshort:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -5472,18 +5515,18 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:cardBackgroundColor
+     * @attr name com.dipu.inshort:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5492,11 +5535,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:cardCornerRadius
+     * @attr name com.dipu.inshort:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5505,11 +5548,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:cardElevation
+     * @attr name com.dipu.inshort:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5518,31 +5561,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:cardMaxElevation
+     * @attr name com.dipu.inshort:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:cardPreventCornerOverlap
+     * @attr name com.dipu.inshort:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:cardUseCompatPadding
+     * @attr name com.dipu.inshort:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5551,11 +5594,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentPadding
+     * @attr name com.dipu.inshort:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5564,11 +5607,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentPaddingBottom
+     * @attr name com.dipu.inshort:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5577,11 +5620,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentPaddingLeft
+     * @attr name com.dipu.inshort:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5590,11 +5633,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentPaddingRight
+     * @attr name com.dipu.inshort:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5603,7 +5646,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentPaddingTop
+     * @attr name com.dipu.inshort:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -5615,7 +5658,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.nightowl.inshort:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.dipu.inshort:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -5645,12 +5688,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.nightowl.inshort:alpha
+     * @attr name com.dipu.inshort:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -5661,8 +5704,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.nightowl.inshort:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.nightowl.inshort:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.dipu.inshort:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.dipu.inshort:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -5684,18 +5727,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:buttonTint
+     * @attr name com.dipu.inshort:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5711,7 +5754,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:buttonTintMode
+     * @attr name com.dipu.inshort:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -5721,14 +5764,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.nightowl.inshort:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.nightowl.inshort:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.nightowl.inshort:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.nightowl.inshort:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.nightowl.inshort:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.nightowl.inshort:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.nightowl.inshort:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.nightowl.inshort:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.dipu.inshort:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.dipu.inshort:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.dipu.inshort:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.dipu.inshort:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.dipu.inshort:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.dipu.inshort:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.dipu.inshort:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.dipu.inshort:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -5741,10 +5784,10 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
         0x7f020028, 0x7f020029, 0x7f020030, 0x7f020049, 
-        0x7f020069, 0x7f020072, 0x7f0200af, 0x7f0200cb
+        0x7f020069, 0x7f020072, 0x7f0200b2, 0x7f0200ce
       };
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5753,11 +5796,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:arrowHeadLength
+     * @attr name com.dipu.inshort:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5766,11 +5809,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:arrowShaftLength
+     * @attr name com.dipu.inshort:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5779,22 +5822,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:barLength
+     * @attr name com.dipu.inshort:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:color
+     * @attr name com.dipu.inshort:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5803,11 +5846,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:drawableSize
+     * @attr name com.dipu.inshort:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5816,21 +5859,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:gapBetweenBars
+     * @attr name com.dipu.inshort:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:spinBars
+     * @attr name com.dipu.inshort:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5839,7 +5882,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:thickness
+     * @attr name com.dipu.inshort:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -5854,10 +5897,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.nightowl.inshort:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.nightowl.inshort:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.nightowl.inshort:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.nightowl.inshort:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.dipu.inshort:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.dipu.inshort:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.dipu.inshort:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.dipu.inshort:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -5872,7 +5915,7 @@ public final class R {
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
         0x01010128, 0x7f020065, 0x7f020067, 0x7f02008e, 
-        0x7f0200ac
+        0x7f0200ae
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -5949,7 +5992,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5957,11 +6000,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:divider
+     * @attr name com.dipu.inshort:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5970,21 +6013,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:dividerPadding
+     * @attr name com.dipu.inshort:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:measureWithLargestChild
+     * @attr name com.dipu.inshort:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5999,7 +6042,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:showDividers
+     * @attr name com.dipu.inshort:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -6271,10 +6314,10 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.nightowl.inshort:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.nightowl.inshort:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.nightowl.inshort:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.nightowl.inshort:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.dipu.inshort:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.dipu.inshort:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.dipu.inshort:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.dipu.inshort:showAsAction}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -6299,7 +6342,7 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f02000d, 0x7f02001f, 0x7f020020, 
-        0x7f0200ab
+        0x7f0200ad
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -6444,7 +6487,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6452,31 +6495,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:actionLayout
+     * @attr name com.dipu.inshort:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:actionProviderClass
+     * @attr name com.dipu.inshort:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:actionViewClass
+     * @attr name com.dipu.inshort:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6492,7 +6535,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:showAsAction
+     * @attr name com.dipu.inshort:showAsAction
      */
     public static final int MenuItem_showAsAction=16;
     /**
@@ -6509,8 +6552,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.nightowl.inshort:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.nightowl.inshort:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.dipu.inshort:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.dipu.inshort:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -6524,8 +6567,8 @@ public final class R {
      */
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-        0x0101012f, 0x01010130, 0x01010131, 0x7f02009c, 
-        0x7f0200b5
+        0x0101012f, 0x01010130, 0x01010131, 0x7f02009e, 
+        0x7f0200b8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -6615,17 +6658,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:preserveIconSpacing
+     * @attr name com.dipu.inshort:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6633,7 +6676,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:subMenuArrow
+     * @attr name com.dipu.inshort:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -6645,7 +6688,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.nightowl.inshort:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.dipu.inshort:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -6682,13 +6725,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:overlapAnchor
+     * @attr name com.dipu.inshort:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -6698,23 +6741,65 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.nightowl.inshort:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.dipu.inshort:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0200b4
+        0x7f0200b7
       };
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:state_above_anchor
+     * @attr name com.dipu.inshort:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
+    /**
+     * Attributes that can be used with a RecycleListView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.dipu.inshort:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.dipu.inshort:paddingTopNoTitle}</code></td><td></td></tr>
+     * </table>
+     * @see #RecycleListView_paddingBottomNoButtons
+     * @see #RecycleListView_paddingTopNoTitle
+     */
+    public static final int[] RecycleListView={
+        0x7f020094, 0x7f020097
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#paddingBottomNoButtons}
+     * attribute's value can be found in the {@link #RecycleListView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.dipu.inshort:paddingBottomNoButtons
+     */
+    public static final int RecycleListView_paddingBottomNoButtons=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#paddingTopNoTitle}
+     * attribute's value can be found in the {@link #RecycleListView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.dipu.inshort:paddingTopNoTitle
+     */
+    public static final int RecycleListView_paddingTopNoTitle=1;
     /**
      * Attributes that can be used with a SearchView.
      * <p>Includes the following attributes:</p>
@@ -6726,19 +6811,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.nightowl.inshort:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.nightowl.inshort:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.nightowl.inshort:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.nightowl.inshort:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.nightowl.inshort:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.nightowl.inshort:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.nightowl.inshort:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.nightowl.inshort:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.nightowl.inshort:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.nightowl.inshort:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.nightowl.inshort:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.nightowl.inshort:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.nightowl.inshort:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.dipu.inshort:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.dipu.inshort:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.dipu.inshort:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.dipu.inshort:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.dipu.inshort:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.dipu.inshort:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.dipu.inshort:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.dipu.inshort:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.dipu.inshort:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.dipu.inshort:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.dipu.inshort:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.dipu.inshort:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.dipu.inshort:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -6761,9 +6846,9 @@ public final class R {
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
         0x7f020045, 0x7f020053, 0x7f020061, 0x7f020073, 
-        0x7f020079, 0x7f02007f, 0x7f02009f, 0x7f0200a0, 
-        0x7f0200a5, 0x7f0200a6, 0x7f0200b6, 0x7f0200bb, 
-        0x7f0200e1
+        0x7f020079, 0x7f02007f, 0x7f0200a1, 0x7f0200a2, 
+        0x7f0200a7, 0x7f0200a8, 0x7f0200b9, 0x7f0200be, 
+        0x7f0200e4
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -6867,7 +6952,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6875,11 +6960,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:closeIcon
+     * @attr name com.dipu.inshort:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6887,21 +6972,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:commitIcon
+     * @attr name com.dipu.inshort:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:defaultQueryHint
+     * @attr name com.dipu.inshort:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6909,21 +6994,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:goIcon
+     * @attr name com.dipu.inshort:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:iconifiedByDefault
+     * @attr name com.dipu.inshort:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6931,11 +7016,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:layout
+     * @attr name com.dipu.inshort:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6943,21 +7028,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:queryBackground
+     * @attr name com.dipu.inshort:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:queryHint
+     * @attr name com.dipu.inshort:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6965,11 +7050,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:searchHintIcon
+     * @attr name com.dipu.inshort:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6977,11 +7062,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:searchIcon
+     * @attr name com.dipu.inshort:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6989,11 +7074,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:submitBackground
+     * @attr name com.dipu.inshort:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7001,11 +7086,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:suggestionRowLayout
+     * @attr name com.dipu.inshort:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7013,7 +7098,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:voiceIcon
+     * @attr name com.dipu.inshort:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -7027,7 +7112,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.nightowl.inshort:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.dipu.inshort:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -7037,7 +7122,7 @@ public final class R {
      */
     public static final int[] Spinner={
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-        0x7f02009a
+        0x7f02009c
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -7102,7 +7187,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7110,7 +7195,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:popupTheme
+     * @attr name com.dipu.inshort:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -7123,17 +7208,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.nightowl.inshort:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.nightowl.inshort:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.nightowl.inshort:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.nightowl.inshort:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.nightowl.inshort:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.nightowl.inshort:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.nightowl.inshort:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.nightowl.inshort:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.nightowl.inshort:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.nightowl.inshort:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.nightowl.inshort:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.dipu.inshort:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.dipu.inshort:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.dipu.inshort:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.dipu.inshort:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.dipu.inshort:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.dipu.inshort:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.dipu.inshort:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.dipu.inshort:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.dipu.inshort:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.dipu.inshort:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.dipu.inshort:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -7151,10 +7236,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f0200ad, 
-        0x7f0200b2, 0x7f0200bc, 0x7f0200bd, 0x7f0200bf, 
-        0x7f0200cc, 0x7f0200cd, 0x7f0200ce, 0x7f0200de, 
-        0x7f0200df, 0x7f0200e0
+        0x01010124, 0x01010125, 0x01010142, 0x7f0200af, 
+        0x7f0200b5, 0x7f0200bf, 0x7f0200c0, 0x7f0200c2, 
+        0x7f0200cf, 0x7f0200d0, 0x7f0200d1, 0x7f0200e1, 
+        0x7f0200e2, 0x7f0200e3
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -7189,27 +7274,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:showText
+     * @attr name com.dipu.inshort:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:splitTrack
+     * @attr name com.dipu.inshort:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7218,11 +7303,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:switchMinWidth
+     * @attr name com.dipu.inshort:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7231,11 +7316,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:switchPadding
+     * @attr name com.dipu.inshort:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7243,11 +7328,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:switchTextAppearance
+     * @attr name com.dipu.inshort:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7256,22 +7341,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:thumbTextPadding
+     * @attr name com.dipu.inshort:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:thumbTint
+     * @attr name com.dipu.inshort:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7288,11 +7373,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:thumbTintMode
+     * @attr name com.dipu.inshort:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7300,22 +7385,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:track
+     * @attr name com.dipu.inshort:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:trackTint
+     * @attr name com.dipu.inshort:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7332,7 +7417,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:trackTintMode
+     * @attr name com.dipu.inshort:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -7351,7 +7436,7 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.nightowl.inshort:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.dipu.inshort:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -7367,7 +7452,7 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x0101009a, 0x01010161, 0x01010162, 0x01010163, 
-        0x01010164, 0x7f0200c0
+        0x01010164, 0x7f0200c3
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -7488,7 +7573,7 @@ public final class R {
      */
     public static final int TextAppearance_android_shadowRadius=8;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7498,7 +7583,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.nightowl.inshort:textAllCaps
+     * @attr name com.dipu.inshort:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=9;
     /**
@@ -7510,33 +7595,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.nightowl.inshort:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.nightowl.inshort:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.nightowl.inshort:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.nightowl.inshort:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.nightowl.inshort:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.nightowl.inshort:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.nightowl.inshort:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.nightowl.inshort:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.nightowl.inshort:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.nightowl.inshort:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.nightowl.inshort:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.nightowl.inshort:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.nightowl.inshort:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.nightowl.inshort:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.nightowl.inshort:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.nightowl.inshort:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.nightowl.inshort:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.nightowl.inshort:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.nightowl.inshort:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.nightowl.inshort:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.nightowl.inshort:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.nightowl.inshort:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.nightowl.inshort:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.nightowl.inshort:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.nightowl.inshort:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.nightowl.inshort:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.nightowl.inshort:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.dipu.inshort:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.dipu.inshort:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.dipu.inshort:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.dipu.inshort:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.dipu.inshort:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.dipu.inshort:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.dipu.inshort:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.dipu.inshort:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.dipu.inshort:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.dipu.inshort:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.dipu.inshort:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.dipu.inshort:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.dipu.inshort:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.dipu.inshort:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.dipu.inshort:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.dipu.inshort:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.dipu.inshort:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.dipu.inshort:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.dipu.inshort:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.dipu.inshort:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.dipu.inshort:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.dipu.inshort:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.dipu.inshort:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.dipu.inshort:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.dipu.inshort:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.dipu.inshort:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.dipu.inshort:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -7573,10 +7658,10 @@ public final class R {
         0x7f020048, 0x7f020054, 0x7f020055, 0x7f020056, 
         0x7f020057, 0x7f020058, 0x7f020059, 0x7f02008b, 
         0x7f02008c, 0x7f02008d, 0x7f020090, 0x7f020091, 
-        0x7f02009a, 0x7f0200b7, 0x7f0200b8, 0x7f0200b9, 
-        0x7f0200d2, 0x7f0200d3, 0x7f0200d4, 0x7f0200d5, 
-        0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 0x7f0200d9, 
-        0x7f0200da
+        0x7f02009c, 0x7f0200ba, 0x7f0200bb, 0x7f0200bc, 
+        0x7f0200d5, 0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 
+        0x7f0200d9, 0x7f0200da, 0x7f0200db, 0x7f0200dc, 
+        0x7f0200dd
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -7621,7 +7706,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7634,21 +7719,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:buttonGravity
+     * @attr name com.dipu.inshort:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:collapseContentDescription
+     * @attr name com.dipu.inshort:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7656,11 +7741,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:collapseIcon
+     * @attr name com.dipu.inshort:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7669,11 +7754,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetEnd
+     * @attr name com.dipu.inshort:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7682,11 +7767,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetEndWithActions
+     * @attr name com.dipu.inshort:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7695,11 +7780,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetLeft
+     * @attr name com.dipu.inshort:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7708,11 +7793,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetRight
+     * @attr name com.dipu.inshort:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7721,11 +7806,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetStart
+     * @attr name com.dipu.inshort:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7734,11 +7819,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:contentInsetStartWithNavigation
+     * @attr name com.dipu.inshort:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7746,21 +7831,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:logo
+     * @attr name com.dipu.inshort:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:logoDescription
+     * @attr name com.dipu.inshort:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7769,21 +7854,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:maxButtonHeight
+     * @attr name com.dipu.inshort:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:navigationContentDescription
+     * @attr name com.dipu.inshort:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7791,11 +7876,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:navigationIcon
+     * @attr name com.dipu.inshort:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7803,21 +7888,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:popupTheme
+     * @attr name com.dipu.inshort:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:subtitle
+     * @attr name com.dipu.inshort:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7825,32 +7910,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:subtitleTextAppearance
+     * @attr name com.dipu.inshort:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:subtitleTextColor
+     * @attr name com.dipu.inshort:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.nightowl.inshort:title
+     * @attr name com.dipu.inshort:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7859,11 +7944,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:titleMargin
+     * @attr name com.dipu.inshort:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7872,11 +7957,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:titleMarginBottom
+     * @attr name com.dipu.inshort:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7885,11 +7970,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:titleMarginEnd
+     * @attr name com.dipu.inshort:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7898,11 +7983,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:titleMarginStart
+     * @attr name com.dipu.inshort:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7911,11 +7996,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:titleMarginTop
+     * @attr name com.dipu.inshort:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7924,11 +8009,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:titleMargins
+     * @attr name com.dipu.inshort:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7936,18 +8021,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:titleTextAppearance
+     * @attr name com.dipu.inshort:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:titleTextColor
+     * @attr name com.dipu.inshort:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -7959,9 +8044,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.nightowl.inshort:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.nightowl.inshort:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.nightowl.inshort:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.dipu.inshort:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.dipu.inshort:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.dipu.inshort:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -7970,8 +8055,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-        0x01010000, 0x010100da, 0x7f020094, 0x7f020095, 
-        0x7f0200ca
+        0x01010000, 0x010100da, 0x7f020095, 0x7f020096, 
+        0x7f0200cd
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -7996,7 +8081,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8005,11 +8090,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:paddingEnd
+     * @attr name com.dipu.inshort:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8018,11 +8103,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.nightowl.inshort:paddingStart
+     * @attr name com.dipu.inshort:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8030,7 +8115,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.nightowl.inshort:theme
+     * @attr name com.dipu.inshort:theme
      */
     public static final int View_theme=4;
     /**
@@ -8041,8 +8126,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.nightowl.inshort:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.nightowl.inshort:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.dipu.inshort:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.dipu.inshort:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -8067,18 +8152,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.nightowl.inshort:backgroundTint
+     * @attr name com.dipu.inshort:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.nightowl.inshort.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.dipu.inshort.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8094,7 +8179,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.nightowl.inshort:backgroundTintMode
+     * @attr name com.dipu.inshort:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

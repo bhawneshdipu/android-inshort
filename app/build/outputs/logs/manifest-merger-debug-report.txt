@@ -4,16 +4,16 @@ ADDED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:2:1-20:12
-MERGED from [com.android.support:appcompat-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.1.aar/685a01020c1946610170c7b77881171c/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:cardview-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/04930b51bcde4356dd434bcad221bac0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.1.aar/2b54b52de05fae152449c8724ceff336/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.1.aar/fea1271f439c709980ec9585ba8150d8/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.1.aar/8260f8299624d4ea97e14081a935cd99/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:support-fragment:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.1.aar/66125821c4e9538b5e71bcc7d3765203/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-media-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.1.aar/49d7a9d68983536779272c72987d9755/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-utils:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.1.aar/43db6861c69fad55e7cc9cdd802268a2/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-ui:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.1.aar/3655f23837f9d0050dae4e8b36206f30/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.1.aar/3e35f6301b37e002aa223bf8ed6e5a7e/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/86fbb5c01058ef7cbd3b91f40844abc4/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:cardview-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.0.aar/7685786e1d97af9543c3fc4c0c87175b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/25b722d3f87baa9c3a88706129085466/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c105bd951d7bed5de5c33a10af426d97/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/5ae7fe181064c78f77aef4d53365d1c1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/d6e0bcf2ec1af2cb1e9c19f2a09d8970/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/996836665267488dd16b37d0a39b9fb3/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/d0d044b138c86ca23006f0498ad99ba5/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/466f929e128c4c85fbb29b2077151aa7/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/f1fb93093ab9c5e42ca48b435dccfe5b/AndroidManifest.xml:17:1-27:12
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:2:1-20:12
@@ -33,26 +33,26 @@ INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManif
 		ADDED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:5:5-18:19
-MERGED from [com.android.support:appcompat-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.1.aar/685a01020c1946610170c7b77881171c/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.1.aar/685a01020c1946610170c7b77881171c/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/04930b51bcde4356dd434bcad221bac0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/04930b51bcde4356dd434bcad221bac0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.1.aar/2b54b52de05fae152449c8724ceff336/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.1.aar/2b54b52de05fae152449c8724ceff336/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.1.aar/fea1271f439c709980ec9585ba8150d8/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.1.aar/fea1271f439c709980ec9585ba8150d8/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.1.aar/8260f8299624d4ea97e14081a935cd99/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.1.aar/8260f8299624d4ea97e14081a935cd99/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-fragment:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.1.aar/66125821c4e9538b5e71bcc7d3765203/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.1.aar/66125821c4e9538b5e71bcc7d3765203/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.1.aar/49d7a9d68983536779272c72987d9755/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.1.aar/49d7a9d68983536779272c72987d9755/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.1.aar/43db6861c69fad55e7cc9cdd802268a2/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.1.aar/43db6861c69fad55e7cc9cdd802268a2/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.1.aar/3655f23837f9d0050dae4e8b36206f30/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.1.aar/3655f23837f9d0050dae4e8b36206f30/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.1.aar/3e35f6301b37e002aa223bf8ed6e5a7e/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.1.aar/3e35f6301b37e002aa223bf8ed6e5a7e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/86fbb5c01058ef7cbd3b91f40844abc4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/86fbb5c01058ef7cbd3b91f40844abc4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.0.aar/7685786e1d97af9543c3fc4c0c87175b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.0.aar/7685786e1d97af9543c3fc4c0c87175b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/25b722d3f87baa9c3a88706129085466/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/25b722d3f87baa9c3a88706129085466/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c105bd951d7bed5de5c33a10af426d97/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c105bd951d7bed5de5c33a10af426d97/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/5ae7fe181064c78f77aef4d53365d1c1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/5ae7fe181064c78f77aef4d53365d1c1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/d6e0bcf2ec1af2cb1e9c19f2a09d8970/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/d6e0bcf2ec1af2cb1e9c19f2a09d8970/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/996836665267488dd16b37d0a39b9fb3/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/996836665267488dd16b37d0a39b9fb3/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/d0d044b138c86ca23006f0498ad99ba5/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/d0d044b138c86ca23006f0498ad99ba5/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/466f929e128c4c85fbb29b2077151aa7/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/466f929e128c4c85fbb29b2077151aa7/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/f1fb93093ab9c5e42ca48b435dccfe5b/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/f1fb93093ab9c5e42ca48b435dccfe5b/AndroidManifest.xml:25:5-20
 	android:supportsRtl
 		ADDED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml:9:9-35
 	android:label
@@ -81,30 +81,30 @@ uses-sdk
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.1.aar/685a01020c1946610170c7b77881171c/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.1.aar/685a01020c1946610170c7b77881171c/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:cardview-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/04930b51bcde4356dd434bcad221bac0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/04930b51bcde4356dd434bcad221bac0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.1.aar/2b54b52de05fae152449c8724ceff336/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.1.aar/2b54b52de05fae152449c8724ceff336/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.1.aar/fea1271f439c709980ec9585ba8150d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.1.aar/fea1271f439c709980ec9585ba8150d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.1.aar/8260f8299624d4ea97e14081a935cd99/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.1.aar/8260f8299624d4ea97e14081a935cd99/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-fragment:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.1.aar/66125821c4e9538b5e71bcc7d3765203/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.1.aar/66125821c4e9538b5e71bcc7d3765203/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.1.aar/49d7a9d68983536779272c72987d9755/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.1.aar/49d7a9d68983536779272c72987d9755/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.1.aar/43db6861c69fad55e7cc9cdd802268a2/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.1.aar/43db6861c69fad55e7cc9cdd802268a2/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.1.aar/3655f23837f9d0050dae4e8b36206f30/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.1.aar/3655f23837f9d0050dae4e8b36206f30/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.1.aar/3e35f6301b37e002aa223bf8ed6e5a7e/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.1.aar/3e35f6301b37e002aa223bf8ed6e5a7e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/86fbb5c01058ef7cbd3b91f40844abc4/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/86fbb5c01058ef7cbd3b91f40844abc4/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.0.aar/7685786e1d97af9543c3fc4c0c87175b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.0.aar/7685786e1d97af9543c3fc4c0c87175b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/25b722d3f87baa9c3a88706129085466/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/25b722d3f87baa9c3a88706129085466/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c105bd951d7bed5de5c33a10af426d97/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c105bd951d7bed5de5c33a10af426d97/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/5ae7fe181064c78f77aef4d53365d1c1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/5ae7fe181064c78f77aef4d53365d1c1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/d6e0bcf2ec1af2cb1e9c19f2a09d8970/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/d6e0bcf2ec1af2cb1e9c19f2a09d8970/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/996836665267488dd16b37d0a39b9fb3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/996836665267488dd16b37d0a39b9fb3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/d0d044b138c86ca23006f0498ad99ba5/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/d0d044b138c86ca23006f0498ad99ba5/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/466f929e128c4c85fbb29b2077151aa7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/466f929e128c4c85fbb29b2077151aa7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/f1fb93093ab9c5e42ca48b435dccfe5b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/f1fb93093ab9c5e42ca48b435dccfe5b/AndroidManifest.xml:21:5-23:58
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml
 INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.0.1] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.1.aar/685a01020c1946610170c7b77881171c/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.1.0] /home/dipu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/86fbb5c01058ef7cbd3b91f40844abc4/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml
 		ADDED from /home/dipu/AndroidStudioProjects/InShort/app/src/main/AndroidManifest.xml
